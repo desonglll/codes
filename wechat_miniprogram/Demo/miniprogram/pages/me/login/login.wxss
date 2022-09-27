@@ -1,0 +1,63 @@
+/* pages/login/login.wxss */
+.badge{
+    margin-top: 100rpx;
+    text-align: center;
+}
+.badge image{
+    height: 300rpx;
+    width: 300rpx;
+}
+.title{
+    text-align: center;
+    color: #6F1B01;
+    font-size: 33rpx;
+    font-weight: bolder;
+    margin: 20rpx 0;
+}
+.tip{
+    font-size: 20rpx;
+    color: #FFA445;
+}
+.table{
+    height: 1000rpx;
+}
+.table image{
+    height: 60rpx;
+    width: 62rpx;
+    position: absolute;
+    left: 100rpx;
+}
+.input{
+    height: 80rpx;
+    line-height: 80rpx;
+    border-bottom: 1.5px solid gainsboro;
+    margin: 50rpx;
+    padding-left: 150rpx;
+    font-size: 30rpx;
+    color: #787878;
+    letter-spacing: 3rpx;
+}
+
+/* .connect{
+    height: 40rpx;
+    width: 200rpx;
+    font-size: 25rpx;
+    color: #787878;
+    margin-bottom: 10rpx;
+    margin-left: 450rpx;
+    display: block;
+}
+.forget{
+    margin-top: -30rpx;
+} */
+.button{
+    height: 100rpx;
+    border-radius: 25rpx;
+    background-color: #8b2303;
+    color: #FEFEFE;
+    font-size: 36rpx;
+    letter-spacing: 20rpx;
+    box-shadow: 3rpx 3rpx 5rpx 4rpx rgb(196, 184, 184);
+    line-height: 36rpx;
+    padding: 32rpx 0;
+}

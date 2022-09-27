@@ -1,0 +1,100 @@
+.container {
+  font-size: 14rpx;
+  background: #F0F4F3;
+  color: #000;
+}
+.question {
+  position: relative;
+  width: 75%;
+  padding: 40rpx 50rpx 30rpx;
+  background: #AB0904;
+  color: #fff;
+  font-size: 38rpx;
+  text-align: center;
+  line-height: 48rpx;
+  left: 80rpx;
+  margin: 20rpx;
+border-radius: 20rpx;
+letter-spacing: 8rpx;
+}
+.tr{
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  border: 50rpx solid transparent;
+  border-top-color: #AB0904;
+  position: absolute;
+ top: 114rpx;
+  left: 580rpx;
+}
+.answer-content{
+  margin: 30rpx;
+  padding: 30rpx 40rpx;
+  background: #ffffff;
+  border-radius: 20rpx;
+  /* border: 5rpx solid #D7AB67; */
+}
+.muban{
+  width: 150rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  color: #AB0904;
+  font-size: 40rpx;
+  margin: 20rpx;
+  text-align: center;
+  border-bottom: 5rpx solid #AB0904;
+}
+.answer-content text{
+  font-size: 32rpx;
+  color: #454545;
+  line-height: 44rpx;
+}
+.under{
+  width: 100%;
+  margin: 20rpx auto;
+  box-shadow: 0rpx 0rpx 10rpx 4rpx rgb(194, 184, 184) ;
+  float: left;
+  border-radius: 20rpx;
+  padding: 20rpx;
+  position: relative;
+}
+.top{
+  float: left;
+  margin: 20rpx 10rpx;
+}
+.foot{
+  float: left;
+  text-indent: 2em;
+  margin: 20rpx 10rpx;
+}
+
+.end{
+  display: inline-block;
+ width: 350rpx;
+  float: right;
+  margin: 20rpx -70rpx 20rpx 10rpx;
+
+}
+
+.newstext{
+  margin-top: -60rpx;
+  width: 90%;
+  font-size: 28rpx;
+}
+.zhu{
+  width: 150rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+  color: #AB0904;
+  font-size: 40rpx;
+  margin: 20rpx;
+  text-align: center;
+  border: none;
+  float: left;
+  border-bottom: 5rpx solid #AB0904;
+}
+.foot2{
+  float: left;
+  margin: 20rpx 10rpx;
+}

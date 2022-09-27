@@ -1,0 +1,37 @@
+<!--pages/active/detail/detail.wxml-->
+<view class="blus">
+<view class="time">
+  <text>6月13日 上午9:55</text>
+</view>
+<view class="image position">
+  <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208030836520.jpg"></image>
+</view>
+<view class="tr position"></view>
+<view class="question position text1">
+  <text>6月22号晚8点，请到402会议室参加团课</text>
+</view>
+</view>
+<view class="blus" style="margin-top: 30rpx;">
+<view class="time">
+  <text>6月23日 下午15:12</text>
+</view>
+<view class="image position">
+  <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208030836520.jpg" ></image>
+</view>
+<view class="tr position"></view>
+<view class="question position text2">
+  <text>6月28号提交入团申请书</text>
+</view>
+</view>
+<view class="blus" style="margin-top: 30rpx;">
+<view class="time">
+  <text>6月30日 上午7:23</text>
+</view>
+<view class="image position">
+  <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208030836220.png"></image>
+</view>
+<view class="tr position"></view>
+<view class="question position text3">
+  <text>今晚402会议室开会</text>
+</view>
+</view>
