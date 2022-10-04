@@ -378,6 +378,304 @@
 │   └── yzw-master.zip
 ├── 微信小程序
 │   ├── 党团助手
+│   │   ├── Demo
+│   │   │   ├── README.md
+│   │   │   ├── miniprogram
+│   │   │   │   ├── app.js
+│   │   │   │   ├── app.json
+│   │   │   │   ├── app.wxss
+│   │   │   │   ├── cloudfunctions
+│   │   │   │   │   └── login_get_openid
+│   │   │   │   │       ├── config.json
+│   │   │   │   │       ├── index.js
+│   │   │   │   │       └── package.json
+│   │   │   │   ├── data
+│   │   │   │   │   ├── data_discovery.js
+│   │   │   │   │   ├── data_discovery_next.js
+│   │   │   │   │   └── data_process.js
+│   │   │   │   ├── images
+│   │   │   │   │   ├── arc.png
+│   │   │   │   │   ├── cate-selected.png
+│   │   │   │   │   ├── cate.png
+│   │   │   │   │   ├── dangzhengbanfankuitonggao.png
+│   │   │   │   │   ├── dangzhengxuanchuan.png
+│   │   │   │   │   ├── home-selected.png
+│   │   │   │   │   ├── home.png
+│   │   │   │   │   ├── iconfont
+│   │   │   │   │   │   └── iconfont.wxss
+│   │   │   │   │   ├── login.png
+│   │   │   │   │   ├── me-selected.png
+│   │   │   │   │   ├── me.png
+│   │   │   │   │   ├── quest.jpg
+│   │   │   │   │   ├── 审核.png
+│   │   │   │   │   ├── 活动.png
+│   │   │   │   │   ├── 红旗_高亮.png
+│   │   │   │   │   └── 动态公告.png
+│   │   │   │   ├── pages
+│   │   │   │   │   ├── active
+│   │   │   │   │   │   ├── detail
+│   │   │   │   │   │   │   ├── detail.js
+│   │   │   │   │   │   │   ├── detail.json
+│   │   │   │   │   │   │   ├── detail.wxml
+│   │   │   │   │   │   │   └── detail.wxss
+│   │   │   │   │   │   ├── inform
+│   │   │   │   │   │   │   ├── inform.js
+│   │   │   │   │   │   │   ├── inform.json
+│   │   │   │   │   │   │   ├── inform.wxml
+│   │   │   │   │   │   │   └── inform.wxss
+│   │   │   │   │   │   ├── school
+│   │   │   │   │   │   │   ├── school.js
+│   │   │   │   │   │   │   ├── school.json
+│   │   │   │   │   │   │   ├── school.wxml
+│   │   │   │   │   │   │   └── school.wxss
+│   │   │   │   │   │   ├── school2
+│   │   │   │   │   │   │   ├── school.js
+│   │   │   │   │   │   │   ├── school.json
+│   │   │   │   │   │   │   ├── school.wxml
+│   │   │   │   │   │   │   └── school.wxss
+│   │   │   │   │   │   ├── school3
+│   │   │   │   │   │   │   ├── school.js
+│   │   │   │   │   │   │   ├── school.json
+│   │   │   │   │   │   │   ├── school.wxml
+│   │   │   │   │   │   │   └── school.wxss
+│   │   │   │   │   │   ├── school4
+│   │   │   │   │   │   │   ├── school.js
+│   │   │   │   │   │   │   ├── school.json
+│   │   │   │   │   │   │   ├── school.wxml
+│   │   │   │   │   │   │   └── school.wxss
+│   │   │   │   │   │   └── school5
+│   │   │   │   │   │       ├── school.js
+│   │   │   │   │   │       ├── school.json
+│   │   │   │   │   │       ├── school.wxml
+│   │   │   │   │   │       └── school.wxss
+│   │   │   │   │   ├── functions
+│   │   │   │   │   │   ├── details
+│   │   │   │   │   │   │   ├── details.js
+│   │   │   │   │   │   │   ├── details.json
+│   │   │   │   │   │   │   ├── details.wxml
+│   │   │   │   │   │   │   ├── details.wxss
+│   │   │   │   │   │   │   ├── images
+│   │   │   │   │   │   │   │   ├── icon1.png
+│   │   │   │   │   │   │   │   ├── icon2.png
+│   │   │   │   │   │   │   │   ├── icon3.png
+│   │   │   │   │   │   │   │   └── icon4.png
+│   │   │   │   │   │   │   └── pages
+│   │   │   │   │   │   │       ├── fazhandangyuan
+│   │   │   │   │   │   │       │   ├── fazhandangyuan.js
+│   │   │   │   │   │   │       │   ├── fazhandangyuan.json
+│   │   │   │   │   │   │       │   ├── fazhandangyuan.wxml
+│   │   │   │   │   │   │       │   └── fazhandangyuan.wxss
+│   │   │   │   │   │   │       ├── jijifenzi
+│   │   │   │   │   │   │       │   ├── jijifenzi.js
+│   │   │   │   │   │   │       │   ├── jijifenzi.json
+│   │   │   │   │   │   │       │   ├── jijifenzi.wxml
+│   │   │   │   │   │   │       │   └── jijifenzi.wxss
+│   │   │   │   │   │   │       ├── rudangshenqing
+│   │   │   │   │   │   │       │   ├── rudangshenqing.js
+│   │   │   │   │   │   │       │   ├── rudangshenqing.json
+│   │   │   │   │   │   │       │   ├── rudangshenqing.wxml
+│   │   │   │   │   │   │       │   └── rudangshenqing.wxss
+│   │   │   │   │   │   │       ├── rudangshenqingshu
+│   │   │   │   │   │   │       │   ├── rudangshenqingshu.js
+│   │   │   │   │   │   │       │   ├── rudangshenqingshu.json
+│   │   │   │   │   │   │       │   ├── rudangshenqingshu.wxml
+│   │   │   │   │   │   │       │   └── rudangshenqingshu.wxss
+│   │   │   │   │   │   │       ├── rudangzhiyuanshu
+│   │   │   │   │   │   │       │   ├── rudangzhiyuanshu.js
+│   │   │   │   │   │   │       │   ├── rudangzhiyuanshu.json
+│   │   │   │   │   │   │       │   ├── rudangzhiyuanshu.wxml
+│   │   │   │   │   │   │       │   └── rudangzhiyuanshu.wxss
+│   │   │   │   │   │   │       ├── sixianghuibao
+│   │   │   │   │   │   │       │   ├── sixianghuibao.js
+│   │   │   │   │   │   │       │   ├── sixianghuibao.json
+│   │   │   │   │   │   │       │   ├── sixianghuibao.wxml
+│   │   │   │   │   │   │       │   └── sixianghuibao.wxss
+│   │   │   │   │   │   │       ├── yubeidangyuan
+│   │   │   │   │   │   │       │   ├── yubeidangyuan.js
+│   │   │   │   │   │   │       │   ├── yubeidangyuan.json
+│   │   │   │   │   │   │       │   ├── yubeidangyuan.wxml
+│   │   │   │   │   │   │       │   └── yubeidangyuan.wxss
+│   │   │   │   │   │   │       ├── zhengshidangyuan
+│   │   │   │   │   │   │       │   ├── zhengshidangyuan.js
+│   │   │   │   │   │   │       │   ├── zhengshidangyuan.json
+│   │   │   │   │   │   │       │   ├── zhengshidangyuan.wxml
+│   │   │   │   │   │   │       │   └── zhengshidangyuan.wxss
+│   │   │   │   │   │   │       └── zizhuan
+│   │   │   │   │   │   │           ├── zizhuan.js
+│   │   │   │   │   │   │           ├── zizhuan.json
+│   │   │   │   │   │   │           ├── zizhuan.wxml
+│   │   │   │   │   │   │           └── zizhuan.wxss
+│   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   ├── index.json
+│   │   │   │   │   │   ├── index.wxml
+│   │   │   │   │   │   ├── index.wxss
+│   │   │   │   │   │   ├── material_submit
+│   │   │   │   │   │   │   ├── material_submit.js
+│   │   │   │   │   │   │   ├── material_submit.json
+│   │   │   │   │   │   │   ├── material_submit.wxml
+│   │   │   │   │   │   │   └── material_submit.wxss
+│   │   │   │   │   │   └── process
+│   │   │   │   │   │       ├── images
+│   │   │   │   │   │       │   ├── active_member.png
+│   │   │   │   │   │       │   ├── apply.png
+│   │   │   │   │   │       │   ├── developed_member.png
+│   │   │   │   │   │       │   └── developing_member.png
+│   │   │   │   │   │       ├── pages
+│   │   │   │   │   │       │   ├── active_member
+│   │   │   │   │   │       │   │   ├── active_member.js
+│   │   │   │   │   │       │   │   ├── active_member.json
+│   │   │   │   │   │       │   │   ├── active_member.wxml
+│   │   │   │   │   │       │   │   └── active_member.wxss
+│   │   │   │   │   │       │   ├── apply
+│   │   │   │   │   │       │   │   ├── apply.js
+│   │   │   │   │   │       │   │   ├── apply.json
+│   │   │   │   │   │       │   │   ├── apply.wxml
+│   │   │   │   │   │       │   │   └── apply.wxss
+│   │   │   │   │   │       │   ├── developed_member
+│   │   │   │   │   │       │   │   ├── developed_member.js
+│   │   │   │   │   │       │   │   ├── developed_member.json
+│   │   │   │   │   │       │   │   ├── developed_member.wxml
+│   │   │   │   │   │       │   │   └── developed_member.wxss
+│   │   │   │   │   │       │   └── developing_member
+│   │   │   │   │   │       │       ├── developing_member.js
+│   │   │   │   │   │       │       ├── developing_member.json
+│   │   │   │   │   │       │       ├── developing_member.wxml
+│   │   │   │   │   │       │       └── developing_member.wxss
+│   │   │   │   │   │       ├── process.js
+│   │   │   │   │   │       ├── process.json
+│   │   │   │   │   │       ├── process.wxml
+│   │   │   │   │   │       └── process.wxss
+│   │   │   │   │   ├── index
+│   │   │   │   │   │   ├── index.js
+│   │   │   │   │   │   ├── index.json
+│   │   │   │   │   │   ├── index.wxml
+│   │   │   │   │   │   └── index.wxss
+│   │   │   │   │   ├── me
+│   │   │   │   │   │   ├── aboutour
+│   │   │   │   │   │   │   ├── aboutour.js
+│   │   │   │   │   │   │   ├── aboutour.json
+│   │   │   │   │   │   │   ├── aboutour.wxml
+│   │   │   │   │   │   │   └── aboutour.wxss
+│   │   │   │   │   │   ├── booklist
+│   │   │   │   │   │   │   ├── booklist.js
+│   │   │   │   │   │   │   ├── booklist.json
+│   │   │   │   │   │   │   ├── booklist.wxml
+│   │   │   │   │   │   │   └── booklist.wxss
+│   │   │   │   │   │   ├── collect
+│   │   │   │   │   │   │   ├── collect.js
+│   │   │   │   │   │   │   ├── collect.json
+│   │   │   │   │   │   │   ├── collect.wxml
+│   │   │   │   │   │   │   └── collect.wxss
+│   │   │   │   │   │   ├── login
+│   │   │   │   │   │   │   ├── login.js
+│   │   │   │   │   │   │   ├── login.json
+│   │   │   │   │   │   │   ├── login.wxml
+│   │   │   │   │   │   │   └── login.wxss
+│   │   │   │   │   │   ├── me.js
+│   │   │   │   │   │   ├── me.json
+│   │   │   │   │   │   ├── me.wxml
+│   │   │   │   │   │   ├── me.wxss
+│   │   │   │   │   │   └── selectIdentity
+│   │   │   │   │   │       ├── selectIdentity.js
+│   │   │   │   │   │       ├── selectIdentity.json
+│   │   │   │   │   │       ├── selectIdentity.wxml
+│   │   │   │   │   │       └── selectIdentity.wxss
+│   │   │   │   │   ├── news
+│   │   │   │   │   │   ├── links
+│   │   │   │   │   │   │   ├── link1
+│   │   │   │   │   │   │   │   ├── link1.js
+│   │   │   │   │   │   │   │   ├── link1.json
+│   │   │   │   │   │   │   │   ├── link1.wxml
+│   │   │   │   │   │   │   │   └── link1.wxss
+│   │   │   │   │   │   │   ├── link2
+│   │   │   │   │   │   │   │   ├── link1.js
+│   │   │   │   │   │   │   │   ├── link1.json
+│   │   │   │   │   │   │   │   ├── link1.wxml
+│   │   │   │   │   │   │   │   └── link1.wxss
+│   │   │   │   │   │   │   ├── link3
+│   │   │   │   │   │   │   │   ├── link1.js
+│   │   │   │   │   │   │   │   ├── link1.json
+│   │   │   │   │   │   │   │   ├── link1.wxml
+│   │   │   │   │   │   │   │   └── link1.wxss
+│   │   │   │   │   │   │   ├── link4
+│   │   │   │   │   │   │   │   ├── link1.js
+│   │   │   │   │   │   │   │   ├── link1.json
+│   │   │   │   │   │   │   │   ├── link1.wxml
+│   │   │   │   │   │   │   │   └── link1.wxss
+│   │   │   │   │   │   │   ├── link5
+│   │   │   │   │   │   │   │   ├── link1.js
+│   │   │   │   │   │   │   │   ├── link1.json
+│   │   │   │   │   │   │   │   ├── link1.wxml
+│   │   │   │   │   │   │   │   └── link1.wxss
+│   │   │   │   │   │   │   ├── link6
+│   │   │   │   │   │   │   │   ├── link1.js
+│   │   │   │   │   │   │   │   ├── link1.json
+│   │   │   │   │   │   │   │   ├── link1.wxml
+│   │   │   │   │   │   │   │   └── link1.wxss
+│   │   │   │   │   │   │   └── link7
+│   │   │   │   │   │   │       ├── link1.js
+│   │   │   │   │   │   │       ├── link1.json
+│   │   │   │   │   │   │       ├── link1.wxml
+│   │   │   │   │   │   │       └── link1.wxss
+│   │   │   │   │   │   ├── news.js
+│   │   │   │   │   │   ├── news.json
+│   │   │   │   │   │   ├── news.wxml
+│   │   │   │   │   │   └── news.wxss
+│   │   │   │   │   ├── process
+│   │   │   │   │   │   ├── p1
+│   │   │   │   │   │   │   ├── p1.js
+│   │   │   │   │   │   │   ├── p1.json
+│   │   │   │   │   │   │   ├── p1.wxml
+│   │   │   │   │   │   │   └── p1.wxss
+│   │   │   │   │   │   ├── p2
+│   │   │   │   │   │   │   ├── p2.js
+│   │   │   │   │   │   │   ├── p2.json
+│   │   │   │   │   │   │   ├── p2.wxml
+│   │   │   │   │   │   │   └── p2.wxss
+│   │   │   │   │   │   ├── p3
+│   │   │   │   │   │   │   ├── p3.js
+│   │   │   │   │   │   │   ├── p3.json
+│   │   │   │   │   │   │   ├── p3.wxml
+│   │   │   │   │   │   │   └── p3.wxss
+│   │   │   │   │   │   ├── p4
+│   │   │   │   │   │   │   ├── p4.js
+│   │   │   │   │   │   │   ├── p4.json
+│   │   │   │   │   │   │   ├── p4.wxml
+│   │   │   │   │   │   │   └── p4.wxss
+│   │   │   │   │   │   └── p5
+│   │   │   │   │   │       ├── p5.js
+│   │   │   │   │   │       ├── p5.json
+│   │   │   │   │   │       ├── p5.wxml
+│   │   │   │   │   │       └── p5.wxss
+│   │   │   │   │   └── study
+│   │   │   │   │       ├── index2.js
+│   │   │   │   │       ├── index2.json
+│   │   │   │   │       ├── index2.wxml
+│   │   │   │   │       ├── index2.wxss
+│   │   │   │   │       └── question1
+│   │   │   │   │           ├── link1.js
+│   │   │   │   │           ├── link1.json
+│   │   │   │   │           ├── link1.wxml
+│   │   │   │   │           └── link1.wxss
+│   │   │   │   ├── project.config.json
+│   │   │   │   ├── project.private.config.json
+│   │   │   │   ├── sitemap.json
+│   │   │   │   ├── style
+│   │   │   │   └── utils
+│   │   │   │       ├── config.js
+│   │   │   │       ├── request.js
+│   │   │   │       └── utils.js
+│   │   │   ├── project.config.json
+│   │   │   └── project.private.config.json
+│   │   ├── 技术论文
+│   │   │   ├── 图示
+│   │   │   │   ├── 审核人员功能图 .png
+│   │   │   │   ├── 申请人员功能图.png
+│   │   │   │   ├── 系统技术架构图.png
+│   │   │   │   └── 系统技术框架图.png
+│   │   │   ├── 图示.graffle
+│   │   │   ├── 图示.vdx
+│   │   │   └── 技术论文.docx
 │   │   ├── 党团助手20221004.zip
 │   │   ├── 概要设计说明书.doc
 │   │   ├── 软件使用说明书.docx
@@ -426,6 +724,6 @@
         ├── 分治相关题目－2022年9月24日.md
         └── 分治相关题目－2022年9月24日.pdf
 
-93 directories, 329 files
+158 directories, 562 files
 
 ```

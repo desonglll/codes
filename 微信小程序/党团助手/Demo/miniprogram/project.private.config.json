@@ -1,0 +1,61 @@
+{
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/discovery/discovery",
+          "pathName": "pages/discovery/discovery",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/me/me",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "消息",
+          "pathName": "pages/active/inform/inform",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/active/detail/detail",
+          "pathName": "pages/active/detail/detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/study/index2",
+          "pathName": "pages/study/index2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/study/question1/link1",
+          "pathName": "pages/study/question1/link1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/discovery/index",
+          "pathName": "pages/discovery/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/me/selectIdentity/selectIdentity",
+          "pathName": "pages/me/selectIdentity/selectIdentity",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "new"
+}

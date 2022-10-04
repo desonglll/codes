@@ -1,0 +1,37 @@
+<view class="news">
+  <view class="title">
+      <text class="title2">政治与公共管理学院举行“新时代、新青年、新担当”恳谈会</text></view>
+  <view class="mid">
+    <text class="producer">曲阜师大新闻中心讯</text>
+    <text class="newstime">2022-05-23</text>
+  </view>
+  <view class="line"></view>
+  <view class="under">
+    <view class="foot">
+      <text class="newstext" decode="{{true}}"> 为深入学习贯彻习近平总书记在庆祝中国共产主义青年团成立100周年大会上的重要讲话精神，政治与公共管理学院于5月23日举行“新时代，新青年，新担当”主题恳谈会。校团委书记孔轶众、学院党委书记卢瑞霞出席了会议，恳谈会由学院团委书记马腾主持，学院辅导员、学生党员代表、团员代表参加会议。</text>
+    </view>
+    <view class="foot">
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207111151246.jpg"></image>
+    </view>
+    <view class="foot">
+      <text class="newstext" decode="{{true}}">恳谈会上大家畅所欲言，纷纷结合自己的现状和人生规划，分享自己对习近平总书记在庆祝中国共产主义青年团成立100周年大会上重要讲话精神的学习心得。</text>
+    </view>
+    <view class="foot">
+      <text class="newstext" decode="{{true}}">孔轶众立足自身工作岗位和对共青团工作的认识，鼓励团员青年要筑牢政治品格、高扬理想气质、勇于自我创新、心系广大青年，并强调各级团组织当前一项重要工作是开展政治学习，心境澄明，心力茁壮，让人迎面就能感受到团员青年应有的清澈和纯粹。</text>
+    </view>
+    <view class="foot">
+      <text class="newstext" decode="{{true}}">卢瑞霞则从党团关系的角度，强调新时代新青年要明晰政治关系、坚定政治定位、强化政治担当、坚守政治之魂、承担时代重任。她鼓励团员青年深入领悟习近平总书记的讲话精神，并贯彻到实际行动中，做到好理论跟党走，学好专业跟党走，奉献社会跟党走，要做疫情防控政策的宣传者、践行者。</text>
+    </view>
+    
+    <view class="foot">
+      <text class="newstext" decode="{{true}}">马腾和学生党员代表、团员代表也分享了在各自学习习近平总书记在庆祝中国共产主义青年团成立100周年大会上的重要讲话精神过程中的学习心得。</text>
+    </view>  
+    <view class="foot">
+      <text class="newstext" decode="{{true}}">恳谈会上，孔轶众、卢瑞霞还分别分享了自身成长经历。整个恳谈会，气氛轻松、热烈，既让与会者进一步学习了习总书记的讲话精神，也进一步坚定了广大团员青年跟党走的决心。相信政治与公共管理学院团委将带领全院青年牢记习近平总书记的殷切期望，不负时代，不负韶华，用奋斗的青春来迎接党的二十大胜利召开。</text>
+    </view>
+  </view>
+</view>
+<view class="back">
+  
+</view>
+

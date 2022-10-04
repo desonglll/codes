@@ -1,0 +1,69 @@
+<!--pages/functions/process/pages/developed_member/developed_member.wxml-->
+
+
+<view class="index">
+
+    <view class="background">
+
+        <view class="line"></view>
+
+        <view class="title">
+            <text style="color: black;">发展团员</text>
+        </view>
+
+        <view class="line"></view>
+
+        <view class="container">
+            <view class="title_sec">⒈填写《入团志愿书》</view>
+            <view class="content">
+                <text decode="true">&nbsp;&nbsp;拟发展团员填写,二级学院团委要对填写好的《入团志愿书》和有关情况进行严格审查</text>
+            </view>
+
+            <view class="title_sec">⒉支部大会</view>
+            <view class="content">
+                <text decode="true">&nbsp;&nbsp;召开接收拟发展团员的支部大会</text>
+            </view>
+
+            <view class="title_sec">⒊校团委审批</view>
+            <view class="content">
+                <text>审批意见写入《入团志愿书》</text>
+            </view>
+
+            <view class="title_sec">⒋办理团员证</view>
+            <view class="content">
+                <text decode="true">&nbsp;&nbsp;团支部及时编制“发展团员名册”，为新团员办理团员证，由校团委加盖钢印</text>
+            </view>
+
+        </view>
+
+        <view class="line"></view>
+
+        <view class="title">
+            <text style="color: black;">团员教育管理和档案管理</text>
+        </view>
+
+        <view class="line"></view>
+
+        <view class="container">
+            <view class="title_sec">⒈团员教育管理</view>
+            <view class="content">
+                <text>
+                    ①团组织应将新团员《入团志愿书》、入团申请书、思想汇报存入本人档案，为新发展团员注册智慧团建账号并上传电子档案
+                    ②按时完成“三会两制一课”
+                    ③定期缴纳团费
+                    ④团支部应做好团籍注册工作
+                    ⑤团组织应做好团员档案管理工作
+                    ⑥团组织应做好团员组织关系转接工作
+                </text>
+            </view>
+
+            <view class="title_sec">⒉团员档案管理</view>
+            <view class="content">
+                <text>团员档案包括入团申请书、思想汇报材料、《入团志愿书》、团员证等资料。其中，团员证由团员本人保管，其余材料分类别做好管理工作。团员档案纳入学籍档案一并管理，在对团员组织关系进行转接时一并移交团员的档案资料，确保无缺失、遗漏。</text>
+            </view>
+        </view>
+
+
+    </view>
+
+</view>

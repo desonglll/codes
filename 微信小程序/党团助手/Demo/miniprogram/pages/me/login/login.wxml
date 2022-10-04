@@ -1,0 +1,16 @@
+<!--pages/login/login.wxml-->
+<view class="badge">
+  <image src="https://bkimg.cdn.bcebos.com/pic/a9d3fd1f4134970a304e45bca980c6c8a786c917f744?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg"></image>
+</view>
+<view class="title">{{role=='member'?'组织部':'申请人'}}身份认证</view>
+<view class="table">
+  <view class="id">
+    <image class="user" src="https://i.loli.net/2021/08/18/JTp8Zbs4gXznYFI.jpg"></image>
+    <input class="input" data-type="id" id="id" bindinput="getAccount" placeholder="请输入账号" />
+  </view>
+  <view id="pawd">
+    <image class="lock" src="https://i.loli.net/2021/08/18/uybXiBeg64p3RJ1.jpg"></image>
+    <input type="password" class="input" data-type="password" id="password" bindinput="getPassword" placeholder="请输入密码" />
+  </view>
+  <button type="submit" class="button" bindtap="login" size="default" open-type="getUserInfo">登 录</button>
+</view>

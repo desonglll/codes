@@ -1,0 +1,85 @@
+<view class="title">
+ <!-- <view class="bottom"></view> -->
+ <view class="font">
+   <text>我的收藏</text>
+  </view>
+</view>
+<view class="contain">
+  <navigator class="collect" url="../../news/links/link1/link1"  wx:if="{{status1}}"> 
+    <view class="content">
+      <view class="passage">
+        <view class="more">把握自我革命历史 逻辑和实践要求</view>
+        <view class="time">2022年08月14日 人民日报  </view>
+      </view>
+    </view>
+    <view class="picture">
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207150801749.jpg"></image>
+    </view>
+  </navigator>
+  <navigator class="collect" url="../../news/links/link2/link1" wx:if="{{status2}}">
+    <view class="content">
+      <view class="passage">
+        <view class="more">铭记历史 缅怀先烈 珍爱和平</view>
+        <view class="time">2022年08月08日 人民日报</view>
+      </view>
+    </view>
+    <view class="picture">
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207131537601.jpg"></image>
+    </view>
+  </navigator>
+  <navigator class="collect" url="../../news/links/link3/link1" wx:if="{{status3}}">
+    <view class="content">
+      <view class="passage">
+        <view class="more">共青团中央实施青年人才培养行动</view>
+        <view class="time">2022年08月08日新华网</view>
+      </view>
+    </view>
+    <view class="picture">
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207150812336.png"></image>
+    </view>
+  </navigator>
+  <navigator class="collect" url="../../news/links/link4/link1" wx:if="{{status4}}">
+    <view class="content">
+      <view class="passage">
+        <view class="more">纪念全民抗战爆发85周年仪式在京举行</view>
+        <view class="time">2022年08月08日 人民日报</view>
+      </view>
+    </view>
+    <view class="picture">
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207131553915.png"></image>
+    </view>
+  </navigator>
+  <navigator class="collect" url="../../news/links/link5/link1" wx:if="{{status5}}">
+    <view class="content">
+      <view class="passage">
+        <view class="more">锻造时代先锋队伍</view>
+        <view class="time">2022年08月01日 新华网</view>
+      </view>
+    </view>
+    <view class="picture">
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207150826533.png"></image>
+    </view>
+  </navigator>
+  <navigator class="collect" url="../../news/links/link6/link1" wx:if="{{status6}}">
+    <view class="content">
+      <view class="passage">
+        <view class="more">壮丽的史诗 精神的殿堂</view>
+        <view class="time">2022年07月30日 新华社</view>
+      </view>
+    </view>
+    <view class="picture">
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207150853467.png"></image>
+    </view>
+  </navigator>
+  <navigator class="collect" url="../../news/links/link7/link1" wx:if="{{status7}}">
+    <view class="content">
+      <view class="passage">
+        <view class="more">军旗永随党旗飘</view>
+        <view class="time">2021年07月29日 人民日报</view>
+      </view>
+    </view>
+    <view class="picture">
+      <image src="https://i.loli.net/2021/08/17/RVyrXEacB35M2ou.jpg"></image>
+    </view>
+  </navigator>
+</view>

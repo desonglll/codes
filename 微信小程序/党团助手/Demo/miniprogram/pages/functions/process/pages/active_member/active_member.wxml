@@ -1,0 +1,72 @@
+<!--pages/functions/process/pages/active_member/active_member.wxml-->
+
+<view class="index">
+
+    <view class="background">
+
+        <view class="line"></view>
+
+        <view class="title">
+            <text style="color: black;">确定入团积极分子</text>
+        </view>
+
+        <view class="line"></view>
+
+        <view class="container">
+            <view class="title_sec">⒈团组织“推优”</view>
+            <view class="content">
+                <text>团支部书记主持召开本支部全体团员大会，参会人员进行 无记名投票推荐。被推荐人应当获得本支部半数以上团员推荐。</text>
+            </view>
+
+            <view class="title_sec">⒉二级学院团委研究</view>
+            <view class="content">
+                <text>二级学院团委在团组织“推优” 基础上，根据本人政治表现、工作业绩和学习成绩等，集体研究 确定是否列为入团积极分子。</text>
+            </view>
+
+            <view class="title_sec">⒊公示</view>
+            <view class="content">
+                <text>二级学院团委应及时将确定的入团积极分子在 本学院公告栏或网站进行公示，公示时间为 7 天。</text>
+            </view>
+
+            <view class="title_sec">⒋填写材料</view>
+            <view class="content">
+                <text>填写《入团积极分子培养教育考察记实簿》。入团积 极分子比例一般不高于入团申请人总数的 30%。</text>
+            </view>
+
+
+        </view>
+
+        <view class="line"></view>
+
+        <view class="title">
+            <text style="color: black;">培养和教育</text>
+        </view>
+
+        <view class="line"></view>
+
+        <view class="container">
+            <view class="title_sec">⒈入团积极分子培养</view>
+            <view class="content">
+                <text>团支部要指定一至两名团员做为入团积极分子培养联系人。</text>
+            </view>
+
+            <view class="title_sec">⒉入团积极分子教育</view>
+            <view class="content">
+                <text>
+                    ①培养教育：不少于三次的思想汇报，思想汇报由申请人亲笔书写，一般不少于 1000 字，培养时长3-6个月
+                    ②团课学习：不少于 8 学时
+                    ③组织入团积极分子每周观看“青年大学习”团课
+                </text>
+            </view>
+
+            <view class="title_sec">⒊动态管理</view>
+            <view class="content">
+                <text>对于表现较差、动机不纯、不适宜继续作为入团积极分子培养的应及时调整出去。</text>
+            </view>
+
+        </view>
+
+
+    </view>
+
+</view>
