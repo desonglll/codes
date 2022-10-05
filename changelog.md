@@ -21,3 +21,17 @@ index fefd5a9..d2ad773 100644
  echo -e "# Directories\n\n\`\`\`shell\n" > "TREE.md"
 
 ```
+```txt
+
+diff --git a/changelog.md b/changelog.md
+index fcd3267..ea3ea7f 100644
+--- a/changelog.md
++++ b/changelog.md
+@@ -21,3 +21,5 @@ index fefd5a9..d2ad773 100644
+  echo -e "# Directories\n\n\`\`\`shell\n" > "TREE.md"
+ 
+ ```
++```txt
++
+
+```
