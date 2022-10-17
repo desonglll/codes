@@ -1,0 +1,88 @@
+<!--pages/functions/process/pages/developing_member/developing_member.wxml-->
+
+<view class="index">
+
+    <view class="background">
+
+        <view class="line"></view>
+
+        <view class="title">
+            <text style="color: black;">拟发展团员应符合以下条件</text>
+        </view>
+
+        <view class="line"></view>
+
+        <view class="container">
+            <view class="title_sec">⒈基本要求</view>
+            <view class="content">
+                <text>年龄在十四周岁以上、二十八周岁以下的中国青年， 承认团的章程，愿意参加团的一个组织并在其中积极工作、执行团的决议和按期交纳团费的。</text>
+            </view>
+
+            <view class="title_sec">⒉志愿服务</view>
+            <view class="content">
+                <text>参加志愿服务不少于 3 次或累计服务时长不少于 10 小时。</text>
+            </view>
+
+            <view class="title_sec">⒊成绩要求</view>
+            <view class="content">
+                <text>综合测评成绩排名居班级前40%且学习成绩排名居班级前 50%，或学习成绩排名居班级前 40%且综合测评排名居班级前 50%；（成绩排名可为最近一学期的排名，也可为发展前所有学 期总排名，同批发展需一个标准。）前一个学期不能有考试不及格情况。</text>
+            </view>
+
+            <view class="title_sec">⒋发展流程完备</view>
+            <view class="content">
+                <text>入团积极分子经过 3-6 个月培养教育和考察，基本具备团员条件者。</text>
+            </view>
+
+        </view>
+
+        <view class="line"></view>
+
+        <view class="title">
+            <text style="color: black;">确定拟发展团员</text>
+        </view>
+
+        <view class="line"></view>
+
+        <view class="container">
+            <view class="title_sec">⒈听取团员的意见</view>
+            <view class="content">
+                <text>团支部书记主持召开本支部全体团员座谈会，赞成人数需超过应到团员的半数。</text>
+            </view>
+
+            <view class="title_sec">⒉听取群众的意见</view>
+            <view class="content">
+                <text>团支部书记主持召开群众座谈会，安排专人介绍入团积极分子的情况，参会人员充分发表意见，并填写征求意见表。赞成人数需超过应到群众的半数。</text>
+            </view>
+
+            <view class="title_sec">⒊二级学院团委研究</view>
+            <view class="content">
+                <text>二级学院团委召集团支部委员会集体研究确定是否列为拟发展团员。</text>
+            </view>
+
+            <view class="title_sec">⒋公示</view>
+            <view class="content">
+                <text>二级学院团委应及时将拟发展团员在本单位公告栏或网站进行公示，公示时间为 7 天，并于每年 5 月份和 10 月份将拟发展团员报校团委备案。</text>
+            </view>
+
+
+
+
+        </view>
+        <view class="line"></view>
+
+        <view class="title">
+            <text style="color: black;">发放入团志愿书</text>
+        </view>
+
+        <view class="line"></view>
+
+        <view class="container">
+            <view class="title_sec">校团委预审</view>
+            <view class="content">
+                <text>二级学院团委将《入团积极分子培养教育考察记实簿》、成绩及综测排名、志愿服务证明及公示报校团委预审，预审通过的，向拟发展团员发放《入团志愿书》。</text>
+            </view>
+        </view>
+
+
+    </view>
+</view>

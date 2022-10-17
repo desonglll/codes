@@ -1,0 +1,60 @@
+<!--pages/functions/process/pages/apply/apply.wxml-->
+
+<view class="index">
+
+  <view class="background">
+
+    <view class="line"></view>
+
+    <view class="title">
+      <text style="color: black;">入团条件</text>
+    </view>
+
+    <view class="line"></view>
+
+    <view class="container">
+      <view class="title_sec">入团条件</view>
+      <view class="content">
+        <text>
+          14-28周岁中国青年</text>
+      </view>
+
+      <view class="title_sec">申请方式</view>
+      <view class="content">
+        <text>
+          ①申请人向学院团组织提出入团申请
+          ②提出申请时间不限
+          ③团支部书记在一个月内同申请人谈话，了解基本情况。</text>
+      </view>
+
+
+    </view>
+
+    <view class="line"></view>
+
+    <view class="title">
+      <text style="color: black;">提交材料</text>
+    </view>
+
+    <view class="line"></view>
+
+    <view class="container">
+      <view class="title_sec">入团申请书</view>
+      <view class="content">
+        <text>内容主要包括五个部分：标题、称呼、正文、结尾、落款。</text>
+        <text>
+          敬爱的团组织：
+          我申请加入中国共产主义青年团。..........
+          .（正文）...................................
+          此致
+          敬礼
+          申请人：
+          申请日期： 年 月 日
+        </text>
+      </view>
+    </view>
+
+
+  </view>
+
+</view>

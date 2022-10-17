@@ -1,0 +1,162 @@
+<!-- <view class="top-tab flex-wrp flex-tab ">
+  <view class="toptab flex-item {{currentNavtab==idx ? 'active' : ''}}" wx:for="{{navTab}}" wx:for-index="idx" wx:for-item="itemName" data-idx="{{idx}}" bindtap="switchTab" style="width: 50%;float: left;">
+    <view style="text-align: center;">{{itemName}}</view>
+  </view>
+</view> -->
+
+<view class="container discovery withtab">
+  <view class="ctnt0">
+    <navigator wx:for="{{listArr}}"  url="../../index/school/school?id={{item._id}}" hover-class="none" wx:key="index">
+      <view class="mid">
+        <view class="content">
+          <view class="feed-item">
+            <view class="feed-source">
+              <a class="">
+                <view class="avatar">
+                  <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208030838764.png"></image>
+                </view>
+                <text>....大学</text>
+              </a>
+            </view>
+            <view class="feed-content">
+              <view class="question">
+                <a class="question-link">
+                  <text>{{item.title}}</text>
+                </a>
+              </view>
+              <view class="answer-body">
+                <view bindtap="bindItemTap">
+                  <text class="answer-txt">{{item.outline}} </text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+    <view class="loading">
+      <van-loading type="{{loading ? 'spinner' : 'none'}}" size="35rpx">
+        <view wx:if="{{loading}}">加载中...</view>
+        <view wx:else="">没有更多了~</view>
+      </van-loading>
+    </view>
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <view class="ctnt0" hidden="{{currentNavtab==0 ? '' : true}}">
+    <block wx:for="{{feed}}" wx:for-index="idx" wx:for-item="item" data-idx="{{idx}}">
+      <view class="mid">
+        <view class="content">
+          <view class="feed-item">
+            <view class="feed-source">
+              <a class="">
+                <view class="avatar">
+                  <image src="{{item.feed_source_img}}"></image>
+                </view>
+                <text>{{item.feed_source_name}}</text>
+              </a>
+            </view>
+            <view class="feed-content">
+              <view class="question" qid="{{question_id}}" bindtap="bindQueTap">
+                <a class="question-link">
+                  <text>{{item.question}}</text>
+                </a>
+              </view>
+              <view class="answer-body">
+                <view bindtap="bindItemTap">
+                  <text class="answer-txt" aid="{{answer_id}}">{{item.answer_ctnt}}</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+    </block>
+  </view>
+  <view class="ctnt1 placehold" hidden="{{currentNavtab==1 ? '' : true}}">
+    <view class="unread">
+      <text>0 条未读</text>
+    </view>
+    <navigator class="notify-item flex-wrp" bindtap="bindQueTap1">
+      <view class="avatar flex-item">
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208030836220.png"></image>
+      </view>
+      <view class="notify-content flex-item">
+        <text class="notify-source">组织老师</text>
+        <text class="notify-title">今日份通知已送达，小主请查收！</text>
+      </view>
+    </navigator>
+    <navigator class="notify-item flex-wrp" bindtap="bindQueTap1">
+      <view class="avatar flex-item">
+        <image src="https://s3.bmp.ovh/imgs/2021/08/8377936d19e44c8a.jpg"></image>
+      </view>
+      <view class="notify-content flex-item">
+        <text class="notify-source">组织部</text>
+        <text class="notify-title">今日份通知已送达，小主请查收！</text>
+      </view>
+    </navigator>
+    <navigator class="notify-item flex-wrp" bindtap="bindQueTap1">
+      <view class="avatar flex-item">
+        <image src="https://s3.bmp.ovh/imgs/2021/08/8377936d19e44c8a.jpg"></image>
+      </view>
+      <view class="notify-content flex-item">
+        <text class="notify-source">组织部</text>
+        <text class="notify-title">今日份通知已送达，小主请查收！</text>
+      </view>
+    </navigator>
+    <navigator class="notify-item flex-wrp" bindtap="bindQueTap1">
+      <view class="avatar flex-item">
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208030836220.png"></image>
+      </view>
+      <view class="notify-content flex-item">
+        <text class="notify-source">组织老师</text>
+        <text class="notify-title">今日份通知已送达，小主请查收！</text>
+      </view>
+    </navigator>
+    <navigator class="notify-item flex-wrp" bindtap="bindQueTap1">
+      <view class="avatar flex-item">
+        <image src="https://s3.bmp.ovh/imgs/2021/08/8377936d19e44c8a.jpg"></image>
+      </view>
+      <view class="notify-content flex-item">
+        <text class="notify-source">组织部</text>
+        <text class="notify-title">今日份通知已送达，小主请查收！</text>
+      </view>
+    </navigator>
+    <navigator class="notify-item flex-wrp" bindtap="bindQueTap1">
+      <view class="avatar flex-item">
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208030836220.png"></image>
+      </view>
+      <view class="notify-content flex-item">
+        <text class="notify-source">组织老师</text>
+        <text class="notify-title">今日份通知已送达，小主请查收！</text>
+      </view>
+    </navigator>
+    <navigator class="notify-item flex-wrp" bindtap="bindQueTap1">
+      <view class="avatar flex-item">
+        <image src="https://s3.bmp.ovh/imgs/2021/08/8377936d19e44c8a.jpg"></image>
+      </view>
+      <view class="notify-content flex-item">
+        <text class="notify-source">组织部</text>
+        <text class="notify-title">今日份通知已送达，小主请查收！</text>
+      </view>
+    </navigator>
+  </view> -->
+
+</view>

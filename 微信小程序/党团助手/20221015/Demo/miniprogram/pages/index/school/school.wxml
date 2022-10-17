@@ -1,0 +1,17 @@
+<view class="news">
+  <view class="title">
+      <text class="title2">{{detail.title}}</text>
+  </view>
+  <view class="mid">
+    <text class="producer">{{detail.author}}</text>
+    <text class="newstime">{{detail.date}} </text>
+  </view>
+  <view class="line"></view>
+  <view class="under">
+    <rich-text nodes="{{detail.content}}"></rich-text>
+  </view>
+</view>
+<view class="back">
+  
+</view>
+

@@ -1,0 +1,56 @@
+<!--pages/functions/process/process.wxml-->
+
+<view class="index">
+  <view class="background">
+    <view class="SubmitSign1">
+      <text>入团流程</text>
+    </view>
+    <view class="border_line"></view>
+    <view class="line"></view>
+    <view class="mid">
+      <view class="item">
+        <navigator url="./pages/apply/apply" hover-class="none">
+          <view style="height: 200rpx;">
+            <view class="title_sec">申请入团</view>
+            <image src="images/apply.png"></image>
+            <text class="show">提交入团申请书</text>
+          </view>
+        </navigator>
+      </view>
+
+      <view class="item">
+        <navigator url="./pages/active_member/active_member" hover-class="none">
+          <view style="height: 200rpx;">
+            <view class="title_sec">入团积极分子</view>
+            <image src="images/active_member.png"></image>
+            <view class="show">入团积极分子记事簿+思想汇报</view>
+          </view>
+        </navigator>
+      </view>
+
+
+      <view class="item">
+        <navigator url="./pages/developing_member/developing_member" hover-class="none">
+          <view style="height: 200rpx;">
+            <view class="title_sec">拟发展团员</view>
+            <image src="images/developing_member.png"></image>
+            <view class="show">成绩及综测排名、志愿服务证明及公示</view>
+          </view>
+        </navigator>
+      </view>
+
+
+      <view class="item">
+        <navigator url="./pages/developed_member/developed_member" hover-class="none">
+          <view style="height: 200rpx;">
+            <view class="title_sec">发展团员</view>
+            <image src="images/developed_member.png"></image>
+            <view class="show">入团志愿书+团员证</view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+
+  </view>
+
+</view>

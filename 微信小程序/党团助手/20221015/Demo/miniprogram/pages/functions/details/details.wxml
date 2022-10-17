@@ -1,0 +1,106 @@
+<!--pages/functions/process/process.wxml-->
+
+<view class="index">
+  <view class="background">
+    <view class="SubmitSign1">
+      <text>入党流程</text>
+    </view>
+    <view class="border_line"></view>
+    <view class="line"></view>
+  <view class="mid">
+    <view class="item">
+      <navigator url="./pages/rudangshenqing/rudangshenqing" hover-class="none">
+        <view style="height: 200rpx;">
+        <view class="title_sec">入党申请</view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208101646905.png"></image>
+        <text class="show">为了规范发展党员工作，保证新发展的党员质量，保持党的先进性和纯洁性，根据《中国共产党章程》和党内有关规定，制定本细则</text>
+        </view>
+      </navigator>
+    </view>
+
+    <view class="item">
+      <navigator url="./pages/rudangshenqingshu/rudangshenqingshu" hover-class="none">
+      <view style="height: 200rpx;">
+        <view class="title_sec">入党申请书</view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208101647283.png"></image>
+        <text class="show">此为入党申请书撰写模板</text>
+      </view>
+      </navigator>
+    </view>
+
+    <view class="item">
+      <navigator url="./pages/jijifenzi/jijifenzi" hover-class="none">
+        <view style="height: 200rpx;">
+        <view class="title_sec">入党积极分子</view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208101647080.png"></image>
+        <view class="show">党组织应当通过宣传党的政治主张和深入细致的思想政治工作，提高党外群众对党的认识，不断扩大入党积极分子队伍</view>
+        </view>
+      </navigator>
+    </view>
+
+    <view class="item">
+      <navigator url="./pages/sixianghuibao/sixianghuibao" hover-class="none">
+        <view style="height: 200rpx;">
+        <view class="title_sec">思想汇报</view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208101648345.png"></image>
+        <view class="show">此为思想汇报撰写模板</view>
+        </view>
+      </navigator>
+    </view>
+    
+    <view class="item">
+      <navigator url="./pages/fazhandangyuan/fazhandangyuan" hover-class="none">
+        <view style="height: 200rpx;">
+        <view class="title_sec">发展党员</view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208101649494.png"></image>
+        <view class="show">入党积极分子经过一年以上的培养教育和考察，基本具备党员条件后，党组织按以下程序确定发展对象</view>
+        </view>
+
+      </navigator>
+    </view>
+
+    <view class="item">
+      <navigator url="./pages/zizhuan/zizhuan" hover-class="none">
+        <view style="height: 200rpx;">
+        <view class="title_sec">自传</view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208101650351.png"></image>
+        <view class="show">此为自传撰写模板</view>
+        </view>
+      </navigator>
+    </view>
+
+    <view class="item">
+      <navigator url="./pages/yubeidangyuan/yubeidangyuan" hover-class="none">
+        <view style="height: 200rpx;">
+        <view class="title_sec">预备党员</view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208101651292.png"></image>
+        <view class="show">党支部委员会市查。完支部委员召开会议，对发展对象的材料进行严格审查。重点审查标准条件和发展程序是否符合要求、材料是否规范齐全、政治审查是否合格、集中培训是否合格、公示情况是否合格</view>
+      </view>
+      </navigator>
+    </view>
+
+    <view class="item">
+      <navigator url="./pages/rudangzhiyuanshu/rudangzhiyuanshu" hover-class="none">
+        <view style="height: 200rpx;">
+        <view class="title_sec">入党志愿书</view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208101651224.png"></image>
+        <view class="show">此为入党志愿书撰写模板</view>
+      </view>
+      </navigator>
+    </view>
+
+    <view class="item">
+      <navigator url="./pages/zhengshidangyuan/zhengshidangyuan" hover-class="none">
+        <view style="height: 200rpx;">
+        <view class="title_sec">正式党员</view>
+        <image src="images/icon4.png"></image>
+        <view class="show">各级党委应当把发展党员工作列入重要议事日程，纳入党建工作责任制，作为党建工作述职、评议、考核和党务公开的重要内容</view>
+      </view>
+      </navigator>
+    </view>
+  </view>
+
+
+  </view>
+
+</view>

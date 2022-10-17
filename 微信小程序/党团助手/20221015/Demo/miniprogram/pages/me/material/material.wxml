@@ -1,0 +1,30 @@
+
+<view class="mid">
+  <view class="border_line">
+    <view class="SubmitSign1">
+      <text>我的材料</text>
+    </view>
+  </view>
+  <view class="line"></view>
+  <view style="border:{{item.status?'#05572ce0':'#aa0803'}} 4rpx solid" class="read" wx:for="{{listArr}}" wx:key="index">
+    <view class="material_name" bindtap="openFile" data-path="{{item}}">{{item.name}}</view>
+    <!-- <view>状态：</view> -->
+      <view class="xpass" style="color: grey;" wx:if="{{!item.read}}">未审核</view>
+      <view class="xpass" style="color: #05572ce0;" wx:if="{{item.read&&item.status}}">通过</view>
+      <view class="xpass" style="color: #aa0803;" wx:if="{{item.read&&!item.status}}">未通过</view>
+    <view class="feedback">
+      <van-button class='btn' bind:click="showInput" data-path="{{item}}" type="primary" size="large">反馈</van-button>
+    </view>
+  </view>
+  <van-action-sheet class="input" bind:close="close" show="{{ showInput }}" title="反馈">
+    <van-field
+    value="{{ text }}"
+    label="反馈内容"
+    type="textarea"
+    placeholder="无内容"
+    autosize
+    border
+  />
+  <view style="height:100rpx"></view>
+  </van-action-sheet>
+</view>
