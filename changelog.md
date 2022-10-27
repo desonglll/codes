@@ -578,3 +578,100 @@ index 75b99ed..4ef4d59 100644
 +
 
 ```
+```txt
+
+diff --git a/Python/test.py b/Python/test.py
+index 4157403..3b2e04c 100644
+--- a/Python/test.py
++++ b/Python/test.py
+@@ -1,2 +1,16 @@
+-a = 3.1416
+-print("{0:2.2f}".format(a))
++DictStudent = [
++    {'name': '郭靖', 'gender': '男','age': 19},
++    {'name': '黄蓉', 'gender': '女','age': 18},
++    {'name': '杨康', 'gender': '男','age': 18},
++    {'name': '李莫愁', 'gender': '女','age': 20},
++    {'name': '穆念慈', 'gender': '女','age': 19},
++    {'name': '瑛姑', 'gender': '女','age': 19}
++]
++male = 0
++female = 0
++for i in DictStudent:
++    if i['gender'] == '男':
++        male += 1
++    else:
++        female += 1
++# print('男女生人数为：',{"男":{},"女":{}}.format(male,female))
+diff --git a/changelog.md b/changelog.md
+index 19e7592..fa14384 100644
+--- a/changelog.md
++++ b/changelog.md
+@@ -578,3 +578,5 @@ index 75b99ed..4ef4d59 100644
+ +
+ 
+ ```
++```txt
++
+diff --git a/nvim b/nvim
+deleted file mode 100644
+index 2d1385b..0000000
+--- a/nvim
++++ /dev/null
+@@ -1,50 +0,0 @@
+-# git clone git@github.com:lukas-reineke/indent-blankline.nvim
+-# git clone git@github.com:hrsh7th/cmp-cmdline
+-# git clone git@github.com:hrsh7th/nvim-cmp
+-# git clone git@github.com:sainnhe/edge
+-# git clone git@github.com:leslie255/aleph-nvim
+-# git clone git@github.com:NLKNguyen/papercolor-theme
+-# git clone git@github.com:lewis6991/impatient.nvim
+-# git clone git@github.com:hrsh7th/cmp-path
+-# git clone git@github.com:liuchengxu/space-vim-dark
+-# git clone git@github.com:hrsh7th/cmp-buffer
+-# git clone git@github.com:dstein64/vim-startuptime
+-# git clone git@github.com:nvim-lua/plenary.nvim
+-# git clone git@github.com:hrsh7th/cmp-nvim-lsp
+-# git clone git@github.com:nvim-telescope/telescope.nvim
+-# git clone git@github.com:projekt0n/github-nvim-theme
+-# git clone git@github.com:glepnir/lspsaga.nvim
+-# git clone git@github.com:akinsho/toggleterm.nvim
+-# git clone git@github.com:tiagovla/tokyodark.nvim
+-# git clone git@github.com:nvim-lualine/lualine.nvim
+-# git clone git@github.com:lewis6991/gitsigns.nvim
+-# git clone git@github.com:samodostal/image.nvim
+-# git clone git@github.com:kyazdani42/nvim-tree.lua
+-# git clone git@github.com:sainnhe/sonokai
+-# git clone git@github.com:moll/vim-bbye
+-# git clone git@github.com:L3MON4D3/LuaSnip
+-# git clone git@github.com:rhysd/vim-grammarous
+-# git clone git@github.com:kyazdani42/nvim-web-devicons
+-# git clone git@github.com:Th3Whit3Wolf/one-nvim
+-# git clone git@github.com:simrat39/rust-tools.nvim
+-# git clone git@github.com:nathom/filetype.nvim
+-# git clone git@github.com:akinsho/bufferline.nvim
+-# git clone git@github.com:neovim/nvim-lspconfig
+-# git clone git@github.com:B4mbus/oxocarbon-lua.nvim
+-# git clone git@github.com:nvim-treesitter/nvim-treesitter
+-git clone git@github.com:sbdchd/neoformat ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:sainnhe/everforest ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:hrsh7th/cmp-path ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:machakann/vim-sandwich ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:lyokha/vim-xkbswitch ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:NTBBloodbath/doom-one.nvim ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:SirVer/ultisnips ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:wellle/targets.vim ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:nvim-zh/better-escape.vim ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:shaunsingh/nord.nvim ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:onsails/lspkind-nvim ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:chrisbra/unicode.vim ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:tpope/vim-repeat ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:sainnhe/gruvbox-material ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:tpope/vim-eunuch ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+-git clone git@github.com:git clone git@github.com ~/.local/share/Users/mikeshinoda/.local/share/nvim/site/pack/packer/opt
+diff --git "a/\350\275\257\344\273\266\346\265\213\350\257\225\345\237\272\347\241\200/\347\254\254\344\270\211\346\254\241\345\256\236\351\252\214/\347\254\254\344\270\211\346\254\241.docx" "b/\350\275\257\344\273\266\346\265\213\350\257\225\345\237\272\347\241\200/\347\254\254\344\270\211\346\254\241\345\256\236\351\252\214/\347\254\254\344\270\211\346\254\241.docx"
+deleted file mode 100644
+index 3035807..0000000
+Binary files "a/\350\275\257\344\273\266\346\265\213\350\257\225\345\237\272\347\241\200/\347\254\254\344\270\211\346\254\241\345\256\236\351\252\214/\347\254\254\344\270\211\346\254\241.docx" and /dev/null differ
+
+```
