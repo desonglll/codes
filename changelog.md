@@ -745,3 +745,43 @@ index fdebbad..d35ed5b 100644
 +
 
 ```
+```txt
+
+diff --git a/Python/test.py b/Python/test.py
+index 3b2e04c..c689f6a 100644
+--- a/Python/test.py
++++ b/Python/test.py
+@@ -1,16 +1,4 @@
+-DictStudent = [
+-    {'name': '郭靖', 'gender': '男','age': 19},
+-    {'name': '黄蓉', 'gender': '女','age': 18},
+-    {'name': '杨康', 'gender': '男','age': 18},
+-    {'name': '李莫愁', 'gender': '女','age': 20},
+-    {'name': '穆念慈', 'gender': '女','age': 19},
+-    {'name': '瑛姑', 'gender': '女','age': 19}
+-]
+-male = 0
+-female = 0
+-for i in DictStudent:
+-    if i['gender'] == '男':
+-        male += 1
+-    else:
+-        female += 1
+-# print('男女生人数为：',{"男":{},"女":{}}.format(male,female))
++def f1(p,**p2):
++    print(type(p2))
++
++f1(1, a=2)
+\ No newline at end of file
+diff --git a/changelog.md b/changelog.md
+index 6308b70..51b26ad 100644
+--- a/changelog.md
++++ b/changelog.md
+@@ -745,3 +745,5 @@ index fdebbad..d35ed5b 100644
+ +
+ 
+ ```
++```txt
++
+
+```
