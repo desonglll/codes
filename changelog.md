@@ -883,3 +883,27 @@ index 3cf66b3..8363c6f 100644
 +
 
 ```
+```txt
+
+diff --git a/.vim/coc-settings.json b/.vim/coc-settings.json
+deleted file mode 100644
+index 625247d..0000000
+--- a/.vim/coc-settings.json
++++ /dev/null
+@@ -1,3 +0,0 @@
+-{
+-  "python.linting.enabled": false
+-}
+\ No newline at end of file
+diff --git a/changelog.md b/changelog.md
+index 2e32004..a2c688e 100644
+--- a/changelog.md
++++ b/changelog.md
+@@ -883,3 +883,5 @@ index 3cf66b3..8363c6f 100644
+ +
+ 
+ ```
++```txt
++
+
+```
