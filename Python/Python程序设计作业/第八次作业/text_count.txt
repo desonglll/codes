@@ -1,0 +1,2 @@
+this is a word.
+and this is a testing of text count.
