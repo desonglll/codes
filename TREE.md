@@ -290,6 +290,20 @@
 │   │   │   ├── Chapter3.md
 │   │   │   └── images
 │   │   │       └── Screenshot 2022-10-27 at 16.54.40.png
+│   │   ├── 第九次作业
+│   │   │   ├── binaryread.py
+│   │   │   ├── binarywrite.py
+│   │   │   ├── biofile.py
+│   │   │   ├── csv_reader1.py
+│   │   │   ├── data.dat
+│   │   │   ├── file.txt
+│   │   │   ├── gzipfile.py
+│   │   │   ├── gzipfile.py.gz
+│   │   │   ├── randomfile.py
+│   │   │   ├── siofile.py
+│   │   │   ├── textread.py
+│   │   │   ├── textwrite.py
+│   │   │   └── 第九次作业.md
 │   │   ├── 第二次作业
 │   │   │   ├── 5.8.2.py
 │   │   │   ├── 5.8.3.py
@@ -2851,6 +2865,6 @@
             ├── 课后作业2_5.png
             └── 课后作业2_6.png
 
-479 directories, 2368 files
+480 directories, 2381 files
 
 ```
