@@ -10,5 +10,7 @@ git commit -m "$(date "+%Y-%m-%d %H:%M:%S")"
 git branch -M main
 git remote add origin git@github.com:desonglll/codes.git
 git push -u origin main -f
+
+git branch -M master
 git remote add origin https://gitee.com/desonglll/code.git
 git push -u origin "master" -f
