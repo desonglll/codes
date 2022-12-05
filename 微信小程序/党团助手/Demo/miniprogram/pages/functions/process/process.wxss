@@ -1,0 +1,124 @@
+/* pages/functions/process/process.wxss */
+
+/* pages/functions/index.wxss */
+
+.index {
+    background-color: rgba(236, 234, 234, 0.877);
+
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    padding-top: 2rpx;
+    text-align-last: auto;
+    border-radius: 20rpx;
+    height: 100%;
+}
+
+.title {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 100%;
+    text-align: center;
+}
+.SubmitSign1{
+  background-color: #aa0803;
+  margin-top: 45rpx;
+  margin-left: 50rpx;
+  margin-bottom: 60rpx;
+  font-size: 50rpx;
+  width: 300rpx;
+  border-radius: 10rpx;
+  line-height: 80rpx;
+  display: inline-block;
+  float: left;
+}
+.SubmitSign1 text{
+  display: inline-block;
+  color: white;
+  height: 80rpx;
+  width: 300rpx;
+  margin-left: 50rpx;
+
+}
+
+.border_line{
+  display: inline-block;
+  width: 330rpx;
+  height: 100rpx;
+  border:solid 3rpx #aa0803;
+  margin:36rpx 0 0 -312rpx;
+  border-radius: 10rpx;
+}
+.line {
+    width: 500rpx;
+    height: 3rpx;
+    background-color: #aa0803;
+    margin: 20rpx auto 0 auto;
+    box-shadow: 4rpx 4rpx 8rpx 2rpx rgb(194, 184, 184);
+
+    margin-top: 50rpx;
+    margin-bottom: 50rpx;
+}
+
+.title_sec {
+    display: block;
+    width: 93%;
+    margin: 0rpx 0 5rpx 30rpx;
+    font-size: 33rpx;
+    font-weight: normal;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.mid{
+  background-color: white;
+  width: 90%;
+  height: 1250rpx;
+  padding-top: 3rpx;
+  margin: 10rpx 30rpx;
+  border-radius: 20rpx;
+}
+.item {
+    width: 88%;
+    height: 250rpx;
+    background-color: rgb(255, 255, 255);
+    margin: 50rpx auto;
+    padding-top: 20rpx;
+    border-radius: 20rpx;
+    padding-left: 10rpx;
+    padding-right: 20rpx;
+    box-shadow: 0rpx 0rpx 10rpx 5rpx rgb(194, 184, 184);
+}
+.item:hover {
+  box-shadow: -2rpx -2rpx 15rpx 8rpx rgb(155, 152, 152);
+
+}
+.item navigator image {
+    width: 100rpx;
+    height: 100rpx;
+    margin: 20rpx 40rpx 40rpx 40rpx;
+    float: left;
+    border-radius: 20rpx;
+}
+
+.item .show {
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+
+    word-break: break-all;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 28rpx;
+    width: 65%;
+    margin: 10rpx 10rpx 10rpx 10rpx;
+    text-indent: 2em;
+    font-weight: lighter;
+
+
+}

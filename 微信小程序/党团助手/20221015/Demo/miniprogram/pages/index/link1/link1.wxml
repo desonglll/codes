@@ -1,0 +1,18 @@
+<view class="news">
+  <view class="title">
+      <text class="title2">{{detail.title}}</text>
+      <image class="collect" bindtap='focusFavoriteTab'  wx:if="{{!status}}" src="https://i.loli.net/2021/08/17/GfXIvoW7PuUmiw2.png"  data-itemId="bbb"></image>
+      <image class="collect" bindtap='focusFavoriteTab'  wx:if="{{status}}" src="https://i.loli.net/2021/08/17/XdVuspHQPxmScW3.png"  data-itemId="bbb"></image>
+
+  </view>
+  <view class="mid">
+    <text class="producer">{{detail.author}}</text>
+    <text class="newstime"  space="emsp"> {{detail.date}} </text>
+  </view>
+  <view class="line"></view>
+  <view class="under">
+    <rich-text nodes="{{detail.content}}"></rich-text>
+  </view>
+</view>
+
+

@@ -1,0 +1,86 @@
+  <view class='news'>
+     <navigator class="a" url="./links/link1/link1">
+        <view class="newsbox">
+          <view class="news-title" bindtap='link2'>
+          把握自我革命历史 逻辑和实践要求
+          </view>
+          <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207150801749.jpg" class="news-image"></image>
+          <view class="news-line"></view>
+          <text class="news-text">
+            2022年09月14日 人民日报  
+           </text>
+         </view>
+    </navigator>
+    <navigator class="a" url="./links/link2/link1">
+      <view class="newsbox"  id="newsbox1">
+      <view class="news-title" bindtap='link1'>
+        铭记历史 缅怀先烈 珍爱和平
+      </view>
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207131537601.jpg" class="news-image"></image>
+      <view class="news-line"></view>
+      <text class="news-text">
+        2022年09月08日 人民日报
+      </text>
+     </view>
+    </navigator>
+     <navigator class="a" url="./links/link3/link1">
+      <view class="newsbox"  id="newsbox1">
+      <view class="news-title" >
+        共青团中央实施青 年人才培养行动
+      </view>
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207150812336.png" class="news-image"></image>
+      <view class="news-line"></view>
+      <text class="news-text">
+        2022年09月08日 新华网
+      </text>
+     </view>
+    </navigator>
+    <navigator class="a" url="./links/link4/link1">
+      <view class="newsbox">
+      <view class="news-title" bindtap='link3' id="news3">
+        纪念抗战爆发85周年仪式在京举行
+      </view>
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207131553915.png" class="news-image"></image>
+      <view class="news-line"></view>
+      <text class="news-text">
+        2022年09月06日 人民日报  
+      </text>
+     </view>
+    </navigator>
+    <navigator class="a" url="./links/link5/link1">
+      <view class="newsbox"  id="newsbox1">
+      <view class="news-title" >
+        锻造时代先锋队伍
+      </view>
+      <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207150826533.png" class="news-image"></image>
+      <view class="news-line"></view>
+      <text class="news-text">
+        2022年09月01日 新华网
+      </text>
+     </view>
+    </navigator>
+     <navigator class="a" url="./links/link6/link1">
+      <view class="newsbox"  id="newsbox1">
+        <view class="news-title" bindtap='link1'>
+          壮丽的史诗 精神的殿堂
+        </view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202207150853467.png" class="news-image"></image>
+        <view class="news-line"></view>
+        <text class="news-text">
+          2022年08月30日 新华社  
+        </text>
+     </view>
+    </navigator>
+    <navigator class="a" url="./links/link7/link1">
+        <view class="newsbox">
+          <view class="news-title" bindtap='link2'>
+          军旗永随党旗飘
+          </view>
+          <image src="https://i.loli.net/2021/08/17/RVyrXEacB35M2ou.jpg" class="news-image"></image>
+          <view class="news-line"></view>
+          <text class="news-text">
+            2021年08月29日 人民日报  
+           </text>
+         </view>
+    </navigator>
+  </view>

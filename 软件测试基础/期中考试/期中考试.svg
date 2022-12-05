@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xl="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="230 178 493 477" width="493" height="477">
+  <defs>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="180.7" y="130.3">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.3030978" />
+      <feOffset in="blur" result="offset" dx="0" dy="2" />
+      <feFlood flood-color="black" flood-opacity=".2" result="flood" />
+      <feComposite in="flood" in2="offset" operator="in" result="color" />
+      <feMerge>
+        <feMergeNode in="color" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="FilledArrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="currentColor" stroke="currentColor" stroke-width="1" />
+      </g>
+    </marker>
+  </defs>
+  <g id="Canvas_1" fill="none" fill-opacity="1" stroke-opacity="1" stroke="none" stroke-dasharray="none">
+    <title>Canvas 1</title>
+    <rect fill="white" x="230" y="178" width="493" height="477" />
+    <g id="Canvas_1_Layer_1">
+      <title>Layer 1</title>
+      <g id="Group_27">
+        <g id="Graphic_3">
+          <rect x="310" y="179" width="154.5" height="49.5" fill="white" />
+          <rect x="310" y="179" width="154.5" height="49.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+          <text transform="translate(315 194.526)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="32.258" y="15">k = 0; j = 1;</tspan>
+          </text>
+        </g>
+        <g id="Graphic_4" filter="url(#Shadow)">
+          <path d="M 387.25 271.5 L 464.5 296.25 L 387.25 321 L 310 296.25 Z" fill="white" />
+          <path d="M 387.25 271.5 L 464.5 296.25 L 387.25 321 L 310 296.25 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+          <text transform="translate(335.8575 288.755)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" fill="black" x="41.429688" y="11">j &lt; n</tspan>
+          </text>
+        </g>
+        <g id="Graphic_5" filter="url(#Shadow)">
+          <path d="M 387.25 364 L 487.5 388.75 L 387.25 413.5 L 287 388.75 Z" fill="white" />
+          <path d="M 387.25 364 L 487.5 388.75 L 387.25 413.5 L 287 388.75 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+          <text transform="translate(319.0675 381.255)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" fill="black" x="14.327148" y="11">datalist[j] &gt; datalist[k]</tspan>
+          </text>
+        </g>
+        <g id="Graphic_6" filter="url(#Shadow)">
+          <path d="M 590.75 271.5 L 695.75 271.5 C 709.41905 271.5 720.5 282.58095 720.5 296.25 L 720.5 296.25 C 720.5 309.91905 709.41905 321 695.75 321 L 590.75 321 C 577.08095 321 566 309.91905 566 296.25 L 566 296.25 C 566 282.58095 577.08095 271.5 590.75 271.5 Z" fill="white" />
+          <path d="M 590.75 271.5 L 695.75 271.5 C 709.41905 271.5 720.5 282.58095 720.5 296.25 L 720.5 296.25 C 720.5 309.91905 709.41905 321 695.75 321 L 590.75 321 C 577.08095 321 566 309.91905 566 296.25 L 566 296.25 C 566 282.58095 577.08095 271.5 590.75 271.5 Z" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+          <text transform="translate(571 289.25)" fill="black">
+            <tspan font-family="Helvetica" font-size="12" fill="black" x="50.24219" y="11">return k;</tspan>
+          </text>
+        </g>
+        <g id="Graphic_7">
+          <rect x="310" y="456.5" width="154.5" height="49.5" fill="white" />
+          <rect x="310" y="456.5" width="154.5" height="49.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+          <text transform="translate(315 472.026)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="54.85" y="15">k = j;</tspan>
+          </text>
+        </g>
+        <g id="Graphic_8">
+          <rect x="310" y="549" width="154.5" height="49.5" fill="white" />
+          <rect x="310" y="549" width="154.5" height="49.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+          <text transform="translate(315 564.526)" fill="black">
+            <tspan font-family="Helvetica Neue" font-size="16" fill="black" x="56.426" y="15">j ++;</tspan>
+          </text>
+        </g>
+        <g id="Line_16">
+          <line x1="387.25" y1="228.5" x2="387.25" y2="261.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+        </g>
+        <g id="Line_17">
+          <line x1="387.25" y1="321" x2="387.25" y2="354.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+        </g>
+        <g id="Line_18">
+          <line x1="387.25" y1="413.5" x2="387.25" y2="446.6" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+        </g>
+        <g id="Line_19">
+          <line x1="387.25" y1="506" x2="387.25" y2="539.1" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+        </g>
+        <g id="Line_20">
+          <line x1="464.5" y1="296.25" x2="556.1" y2="296.25" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+        </g>
+        <g id="Line_24">
+          <path d="M 487.5 388.75 L 497.5 388.75 L 536.14274 388.51298 L 536.14274 524.4068 L 397.15 524.4068" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+        </g>
+        <g id="Line_26">
+          <path d="M 387.25 598.5 L 387.25 654.41936 L 230.81303 654.41936 L 230.81303 246.3619 L 377.35 246.3619" marker-end="url(#FilledArrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

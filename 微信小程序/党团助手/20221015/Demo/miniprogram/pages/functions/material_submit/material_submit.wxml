@@ -1,0 +1,23 @@
+<!--pages/functions/material_submit/material_submit.wxml-->
+<view class="container">
+    <view class="SubmitByUpload">
+      <view class="SubmitSign1">
+      <text>材料提交</text>
+      </view>
+      <view class="border_line"></view>
+        <view class="SubmitSign">（请上传docx格式文件）</view>
+        <view class="top textBox">
+          <view class="file-type" id="docu">
+          <text>材料类型</text>
+          <input class="shuru"  placeholder="请输入材料类型" bindinput='getInputType' auto-focus/>
+          </view>
+          <view class="file-type" id="name">
+          <text >姓名</text>
+          <input class="shuru " id="name" placeholder="请输入作者姓名" bindinput='getInputName' auto-focus/>
+          </view>
+        </view>
+        <button id="but" class="UploadButton" bind:tap="onUpload" hover-class="btn-hover">上传文件</button>
+    </view>
+
+    <!-- <view class="DivideLine"></view> -->
+</view>

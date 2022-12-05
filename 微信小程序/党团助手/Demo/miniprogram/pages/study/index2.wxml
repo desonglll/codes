@@ -1,0 +1,138 @@
+<view class='productNav'>
+  <!-- 左侧 -->
+  <view class='left'>
+    <view class="{{isFocus==1?'active':'normal'}}" wx:if="isFocus" id="1" bindtap='switchNav'>党史书籍</view>
+    <view class="{{isFocus==2?'active':'normal'}}" id="2" bindtap='switchNav'>党史题库</view>
+  </view>
+  <!-- 右侧 -->
+  <view class='right2' wx:if="{{isFocus==1}}">
+    <view class="bookbox1 bookbox" bindtap="book1">
+      <image src="https://i.loli.net/2021/08/17/iy6IGOUxSuAPd2f.png" class="book1-img"></image>
+      <text class="book-title">中共历史探微</text>
+      <text class="book-writer">郭德宏</text>
+    </view>
+    <view class="bookbox2 bookbox" bindtap="book2">
+      <image src="https://i.loli.net/2021/08/17/Fl7PvHKcurXVSCR.png" class="book1-img"></image>
+      <text class="book-title">历史的回顾</text>
+      <text class="book-writer">徐向前</text>
+    </view>
+    <view class="bookbox1 bookbox" bindtap="book3">
+      <image src="https://i.loli.net/2021/08/17/nN5UlxbsvJrO92A.png" class="book1-img"></image>
+      <text class="book-title">毛泽东选集</text>
+      <text class="book-writer">毛泽东</text>
+    </view>
+    <view class="bookbox2 bookbox" bindtap="book4">
+      <image src="https://i.loli.net/2021/08/17/j7XhfaoISkTbiwq.png" class="book1-img"></image>
+      <text class="book-title">苦难辉煌</text>
+      <text class="book-writer">金一南</text>
+    </view>
+    <view class="bookbox1 bookbox" bindtap="book_no">
+      <image src="https://i.loli.net/2021/08/17/ROxrwQshPbV2ji7.png" class="book1-img"></image>
+      <text class="book-title">红船映初心</text>
+      <text class="book-writer">邵维正</text>
+    </view>
+    <view class="bookbox2 bookbox" bindtap="book_no">
+      <image src="https://i.loli.net/2021/08/17/ipMjcAUuQzThdba.png" class="book1-img"></image>
+      <text class="book-title">感悟党史</text>
+      <text class="book-writer">龙新民</text>
+    </view>
+    <view class="bookbox1 bookbox" bindtap="book_no">
+      <image src="https://i.loli.net/2021/08/17/L1w6D3TMOS74Xvk.png" class="book1-img"></image>
+      <text class="book-title">中国工农红军传</text>
+      <text class="book-writer">刘秉荣</text>
+    </view>
+    <view class="bookbox2 bookbox" bindtap="book1">
+      <image src="https://i.loli.net/2021/08/17/iy6IGOUxSuAPd2f.png" class="book1-img"></image>
+      <text class="book-title">中共历史探微</text>
+      <text class="book-writer">郭德宏</text>
+    </view>
+  </view>
+
+  <view class='right3' wx:if="{{isFocus==2}}">
+    <navigator class="a" url="./question1/link1">
+      <view class="newsbox" id="newsbox1">
+        <view class="news-title" bindtap='link1'>
+          党史题库（一）
+        </view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208201134951.png" class="news-image"></image>
+        <view class="news-line"></view>
+        <text class="news-text">
+          2021年08月01日
+        </text>
+      </view>
+    </navigator>
+    <navigator class="a" url="./question1/link1">
+      <view class="newsbox">
+        <view class="news-title" bindtap='link2'>
+          党史题库（二）
+        </view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208201134951.png" class="news-image"></image>
+        <view class="news-line"></view>
+        <text class="news-text">
+          2021年08月05日
+        </text>
+      </view>
+    </navigator>
+    <navigator class="a" url="./question1/link1">
+      <view class="newsbox">
+        <view class="news-title" bindtap='link3' id="news3">
+          党史题库（三）
+        </view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208201134951.png" class="news-image"></image>
+        <view class="news-line"></view>
+        <text class="news-text">
+          2021年08月09日
+        </text>
+      </view>
+    </navigator>
+    <navigator class="a" url="./question1/link1">
+      <view class="newsbox" id="newsbox1">
+        <view class="news-title" bindtap='link4'>
+          党史题库（四）
+        </view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208201134951.png" class="news-image"></image>
+        <view class="news-line"></view>
+        <text class="news-text">
+          2021年08月11日
+        </text>
+      </view>
+    </navigator>
+    <navigator class="a" url="./question1/link1">
+      <view class="newsbox">
+        <view class="news-title" bindtap='link4'>
+          党史题库（五）
+        </view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208201134951.png" class="news-image"></image>
+        <view class="news-line"></view>
+        <text class="news-text">
+          2021年08月16日
+        </text>
+      </view>
+    </navigator>
+    <navigator class="a" url="./question1/link1">
+      <view class="newsbox" id="newsbox1">
+        <view class="news-title" bindtap='link1'>
+          党史题库（六）
+        </view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208201134951.png" class="news-image"></image>
+        <view class="news-line"></view>
+        <text class="news-text">
+          2021年08月19日
+        </text>
+      </view>
+    </navigator>
+    <navigator class="a" url="./question1/link1">
+      <view class="newsbox">
+        <view class="news-title" bindtap='link2'>
+          党史题库（七）
+        </view>
+        <image src="https://typora012.oss-cn-qingdao.aliyuncs.com/202208201134951.png" class="news-image"></image>
+        <view class="news-line"></view>
+        <text class="news-text">
+          2021年08月22日
+        </text>
+      </view>
+    </navigator>
+  </view>
+
+</view>

@@ -1,0 +1,20 @@
+<view class='news'>
+  <navigator class="a" url="../link1/link1?id={{item._id}}" wx:for="{{listArr}}" wx:key="index">
+    <view class="newsbox">
+      <view class="news-title" bindtap='link2'>
+        {{item.title}}
+      </view>
+      <image src="{{item.picurl}}" class="news-image"></image>
+      <view class="news-line"></view>
+      <text class="news-text" decode="{{true}}">
+        {{item.date}} &nbsp;&nbsp;&nbsp;&nbsp;{{item.author}}
+      </text>
+    </view>
+  </navigator>
+  <view class="loading">
+    <van-loading type="{{loading ? 'spinner' : 'none'}}" size="35rpx">
+      <view wx:if="{{loading}}">加载中...</view>
+      <view wx:else="">没有更多了~</view>
+    </van-loading>
+  </view>
+</view>

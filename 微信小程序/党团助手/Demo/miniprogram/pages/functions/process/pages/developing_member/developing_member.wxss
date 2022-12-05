@@ -1,0 +1,52 @@
+/* pages/functions/process/pages/apply/apply.wxss */
+
+.index {
+    width: 95%;
+    margin: 20rpx auto;
+}
+
+.background {
+    width: 100%;
+    margin: 20rpx auto;
+    box-shadow: 0rpx 0rpx 10rpx 4rpx rgb(194, 184, 184);
+    float: left;
+    border-radius: 20rpx;
+    padding: 20rpx;
+}
+
+.title {
+    margin-top: 10rpx;
+    margin-bottom: 15rpx;
+    font-weight: bold;
+    font-size: 43rpx;
+}
+
+.container {
+    width: 100%;
+    margin: 20rpx auto;
+    box-shadow: 0rpx 0rpx 10rpx 4rpx rgb(194, 184, 184);
+    float: left;
+    border-radius: 20rpx;
+    padding: 20rpx;
+}
+
+.title_sec {
+    width: 90%;
+    margin: auto;
+    text-align: left;
+}
+
+.content {
+    float: left;
+    text-indent: 2rem;
+    margin: 20rpx 10rpx;
+}
+
+.line {
+    /* border: 2rpx solid #af1e19; */
+    height: 2rpx;
+    background-color: #af1e19;
+    width: 93%;
+    float: left;
+    margin: 5rpx 30rpx 30rpx 5rpx;
+}

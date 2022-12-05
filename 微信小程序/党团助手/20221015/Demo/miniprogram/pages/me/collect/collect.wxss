@@ -1,0 +1,87 @@
+.title{
+  height: 150rpx;
+  width: 100%;
+  border: none;
+  /* border-bottom: 2rpx solid #ffffff; */
+  /* box-shadow: 0rpx 3rpx 8rpx 8rpx rgb(194, 184, 184); */
+}
+/* .bottom{
+  height: 28rpx;
+  width: 100%;
+  background-color: #D7AB67;
+} */
+.font{
+  background-color: #e8e9e9;
+  background-image: url(https://i.loli.net/2021/08/17/Z3D5IFlKkbdWq8O.png);
+  background-repeat: no-repeat;
+  background-size: 50rpx;
+  background-position: 40rpx 45rpx;
+  width: 300rpx;
+  height: 120rpx;
+  color: #712821;
+  margin:31rpx 0 0rpx 30rpx ;
+  padding: 30rpx 0rpx 0 30rpx;
+  line-height:90rpx ;
+  text-align: center;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  box-shadow: 0rpx 10rpx 10rpx 4rpx rgb(194, 184, 184) inset;
+
+}
+/* .title image{
+  height: 40rpx;
+  width: 40rpx;
+  float: left;
+  margin: auto;
+  margin-right: 20rpx;
+  margin-top: 15rpx;
+  margin-left: 10rpx;
+} */
+.title text{
+  font-size: 35rpx;
+  float: left;
+  margin: 0 0 0 80rpx;
+}
+.contain{
+  background-color: #e8e9e9;
+  height: 1200rpx;
+}
+.collect{
+  background-color: #FEFEFE;
+  width: 92%;
+  margin: auto;
+  height: 230rpx;
+  margin-top: 25rpx;
+  box-shadow: 0rpx 0rpx 10rpx 5rpx rgb(194, 184, 184) ;
+  border-radius: 20rpx;
+}
+.content{
+  margin: 30rpx;
+}
+.passage{
+  float: left;
+}
+.more{
+  height: 130rpx;
+  width: 370rpx;
+  border-bottom: 2rpx solid gainsboro;
+  display: block; box-sizing: border-box;
+  margin-top: 35rpx;
+  font-size: 35rpx;
+  font-weight: bolder;
+}
+.time{
+  color: #8F8F90;
+  font-size: 28rpx;
+  margin-top: 15rpx;
+}
+.picture{
+  height: 200rpx;
+  width: 250rpx;
+  margin: -300rpx 0rpx 25rpx 395rpx;
+}
+image{
+  height: 180rpx;
+  border-radius: 20rpx;
+  width: 250rpx;
+}

@@ -1,0 +1,84 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/me/aboutour/aboutour",
+    "pages/me/collect/collect",
+    "pages/me/login/login",
+    "pages/me/booklist/booklist",
+    "pages/me/selectIdentity/selectIdentity",
+    "pages/process/p1/p1",
+    "pages/process/p2/p2",
+    "pages/process/p3/p3",
+    "pages/process/p4/p4",
+    "pages/process/p5/p5",
+    "pages/active/school/school",
+    "pages/active/school2/school",
+    "pages/active/school3/school",
+    "pages/active/school4/school",
+    "pages/active/school5/school",
+    "pages/active/inform/inform",
+    "pages/active/detail/detail",
+    "pages/study/index2",
+    "pages/study/question1/link1",
+    "pages/functions/index",
+    "pages/functions/material_submit/material_submit",
+    "pages/functions/details/details",
+    "pages/functions/process/process",
+    "pages/functions/process/pages/apply/apply",
+    "pages/functions/process/pages/active_member/active_member",
+    "pages/functions/process/pages/developing_member/developing_member",
+    "pages/functions/process/pages/developed_member/developed_member",
+    "pages/functions/details/pages/sixianghuibao/sixianghuibao",
+    "pages/functions/details/pages/rudangshenqing/rudangshenqing",
+    "pages/functions/details/pages/jijifenzi/jijifenzi",
+    "pages/functions/details/pages/rudangshenqingshu/rudangshenqingshu",
+    "pages/functions/details/pages/fazhandangyuan/fazhandangyuan",
+    "pages/functions/details/pages/rudangzhiyuanshu/rudangzhiyuanshu",
+    "pages/functions/details/pages/yubeidangyuan/yubeidangyuan",
+    "pages/functions/details/pages/zhengshidangyuan/zhengshidangyuan",
+    "pages/functions/details/pages/zizhuan/zizhuan",
+    "pages/news/news",
+    "pages/news/links/link1/link1",
+    "pages/news/links/link2/link1",
+    "pages/news/links/link3/link1",
+    "pages/news/links/link4/link1",
+    "pages/news/links/link5/link1",
+    "pages/news/links/link6/link1",
+    "pages/news/links/link7/link1"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": false,
+    "navigationBarBackgroundColor": "#AB0904",
+    "navigationBarTitleText": "党团助手",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/functions/index",
+        "text": "功能",
+        "iconPath": "images/cate.png",
+        "selectedIconPath": "images/cate-selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me-selected.png"
+      }
+    ],
+    "selectedColor": "#F40002"
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

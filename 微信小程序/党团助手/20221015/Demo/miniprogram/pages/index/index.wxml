@@ -1,0 +1,61 @@
+<!--index.wxml-->
+<view class="index">
+
+  <swiper class="top" autoplay interval="2000" circular>
+    <swiper-item wx:for="{{arr}}" wx:key="index">
+      <image src="{{item}}" />
+    </swiper-item>
+  </swiper>
+
+  <view class="mid">
+    <navigator url="../study/index2" target="self" style="font-size: 13px;" open-type="navigate">
+      <view class="container">
+        <image class="img" src="https://typora012.oss-cn-qingdao.aliyuncs.com/202210011637909.png"></image>
+        党建学习
+      </view>
+    </navigator>
+    <navigator url="../news/news/news" target="self" style="font-size: 13px;" open-type="navigate">
+      <view class="container">
+        <image class="img" src="https://typora012.oss-cn-qingdao.aliyuncs.com/202210011636348.png"></image>
+        党政要闻
+      </view>
+    </navigator>
+    <navigator url="../active/inform/inform" target="self" style="font-size: 13px;" open-type="navigate">
+      <view class="container">
+        <image class="img" src="https://typora012.oss-cn-qingdao.aliyuncs.com/202210031605671.png"></image>
+        活动动态
+      </view>
+    </navigator>
+  </view>
+
+
+  <view class="foot">
+    <view class="title">
+      <text>党团活动</text>
+      <view class="line"></view>
+    </view>
+
+    <view class="under">
+      <view class="text_a" wx:for="{{listArr}}" wx:key="index">
+        <navigator url="./school/school?id={{item._id}}" hover-class="none">
+          <text class="title_sec">{{item.title}}</text>
+          <image src="{{item.picurl}}" />
+          <text class="show">{{item.outline}} </text>
+        </navigator>
+      </view>
+
+
+
+
+
+      <!-- <view class="loading">
+        <van-loading type="{{loading ? 'spinner' : 'none'}}" size="35rpx">
+          <view wx:if="{{loading}}">加载中...</view>
+          <view wx:else="">没有更多了~</view>
+        </van-loading>
+      </view> -->
+    </view>
+
+  </view>
+
+</view>

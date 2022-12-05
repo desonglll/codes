@@ -1,0 +1,55 @@
+<view class="container">
+    <view class="question" bindtap="toQuestion">
+        <text class="question-title">入党志愿书</text>
+    </view>
+    <view class="tr"></view>
+
+    <view class="answer-content">
+        <view class="muban">主要内容：</view>
+        <view class="under">
+            <view class="top">
+                <text class="newstext" decode="{{true}}">1、正文主要内容包括:</text>
+            </view>
+            <view class="foot">
+                 <text class="newstext" decode="{{true}}">①第一段要明确对入党的态度，即“我志愿加入中国共产党”。</text>
+            </view>
+            <view class="foot">
+                 <text class="newstext" decode="{{true}}">②对党的认识。第二段写党的性质、宗旨和行动指南。第三段要写明对党的纲领和章程、党史、党的领导和现行的路线、方针、政策等的认识以及其他有关对党的认识。接下来要结合自身经历过的重大历史事件谈谈着法。尤其是在政治理论学习方面的提高，对“法轮功”邪教组织、西藏和新疆打砸抢事件等问题的认识，表明本人的政治立场。</text>
+            </view>
+            <view class="foot">
+                 <text class="newstext" decode="{{true}}">③本人工作学习简要经历，其中的成长体会和收获。</text>
+            </view>  
+            <view class="foot">
+                <text class="newstext" decode="{{true}}"> ④入党动机、目的。一般讲，一个人最初的入党动机、目的不是很正确全面的，往往有个端正的过程，正确的入党动机只有一个，那就是为实现共产主义奋斗一生，全心全意为人民服务，因此，应对每一因素进行分析，写出达到最终正确入党动机的思想演变过程，必要时还要有一定的论述。</text>
+            </view>
+            <view class="foot">
+                <text class="newstext" decode="{{true}}"> ⑤自己的优缺点，要一分为二地对待自己的优缺点，并逐一做出深入的分析，要有发扬优点、克服缺点的决心和措施。</text>
+            </view>
+            <view class="top">
+                <text class="newstext" decode="{{true}}">2、结尾，填写入党志愿书只是申请入党的同志入党必须履行的手续之一，是否能加入党组织，或者即使在组织上入了党，思想上是否入党还得着入党后的育行。因此，在入党志愿书中还要表明自己有不被接受的思想准备、进一步努力的打算等或者入党后的态度、决心等。“如果党组织接收我入党，我要（如何做），如果党组织不能接收我入党，我要（如何做），请党组织考验我。”</text>
+            </view>
+        </view>
+        <view class="zhu">注意：</view>
+        <view class="under">
+            <view class="foot2">
+                <text class="newstext" decode="{{true}}">1.	在发展党员常用文中，入党志愿书是由上级党组织统一印发、申请入党人员填写的材料。入党志愿有规定的篇幅，不能像其他材料可以不受字数限制地撰写。为此，首先要注意字数。全片字间距、行间距布局要合理、工整。</text>
+            </view>
+            <view class="foot2">
+                 <text class="newstext" decode="{{true}}"> 2. 入党志愿书千万不要写成入党申请书，入党志愿书是党组织经过系统培养、教育和考察后，自己的思想和认识更加成热后书写的。入党志愿要在“入党申请书”、“思想汇报”、“自传”等基础上进一步加工、提炼，字斟句酌，把自己最想向党组织表达的思想写出来。因此，在志愿书中一般应围绕上述五个方面进行全面阐述，要写得郑重、庄严、真诚。</text>
+            </view>
+            <view class="foot2">
+                 <text class="newstext" decode="{{true}}">3. 入党志愿书内容要新，采用新说法、新提法，千万不要抄写网上的旧说法，过时的内容。</text>
+            </view>
+            <view class="foot2">
+                 <text class="newstext" decode="{{true}}">4. 入党志愿书不要标题、称呼、落款和日期，结尾也不要写“此致”、“敬礼”，即直接在“入党志愿”栏中写入正文。</text>
+            </view>  
+            <view class="foot2">
+                <text class="newstext" decode="{{true}}">5.  不可以抄写入党普词。</text>
+            </view>
+            <view class="foot2">
+                <text class="newstext" decode="{{true}}">6. 入党志愿的结尾不要署名。署名和日期要签在入党志愿书的第七页页尾的相应位置上。</text>
+            </view>
+  </view>
+    </view>
+</view>
+

@@ -1,0 +1,34 @@
+<view class="mid">
+  <view class="border_line">
+    <view class="SubmitSign1">
+      <text>材料审核</text>
+    </view>
+  </view>
+  <view class="line"></view>
+  <view style="border:{{item.status?'#05572ce0':'#aa0803'}} 4rpx solid" class="read" wx:for="{{listArr}}" wx:key="index">
+    <view class="material_name" bindtap="openFile" data-path="{{item}}">{{item.name}}</view>
+    <view class="mid1">
+      <image class="status" src="https://typora012.oss-cn-qingdao.aliyuncs.com/202210131706072.png" bindtap="pass" data-item="{{item}}" wx:if="{{!item.read||item.status}}"></image>
+      <image class="status" src="https://typora012.oss-cn-qingdao.aliyuncs.com/202210131659513.png" wx:if="{{item.read&&item.status}}"></image>
+      <image class="status" src="https://typora012.oss-cn-qingdao.aliyuncs.com/202210131658522.png" wx:if="{{item.read&&!item.status}}"></image>
+      <image class="status" src="https://typora012.oss-cn-qingdao.aliyuncs.com/202210131702772.png" bindtap="reject" data-item="{{item}}" wx:if="{{!item.read||item.status}}" wx:if="{{!item.read||!item.status}}"></image>
+    </view>
+
+    <view class="feedback">
+      <van-button class='btn' bind:click="showInput" data-path="{{item}}" type="primary" size="large">反馈</van-button>
+    </view>
+  </view>
+  <van-action-sheet class="input" bind:close="close" show="{{ showInput }}" title="反馈">
+    <van-field
+    value="{{ text }}"
+    label="反馈内容"
+    type="textarea"
+    placeholder="请输入反馈"
+    autosize
+    bind:change="onChange"
+    border
+  />
+  <van-button bind:click="submit" class='sub'>提交</van-button>
+  <view style="height:100rpx"></view>
+  </van-action-sheet>
+</view>

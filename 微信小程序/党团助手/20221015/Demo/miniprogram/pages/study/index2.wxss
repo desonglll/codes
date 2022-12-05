@@ -1,0 +1,167 @@
+.productNav {
+  background-color: #e2e2e2;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  font-family: "Microsoft YaHei"
+}
+
+.left {
+  display: inline-block;
+  height: 100%;
+  position: fixed;
+  width: 25%;
+  font-size: 37rpx;
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.left view {
+  text-align: center;
+  height: 190rpx;
+  line-height: 190rpx;
+}
+
+.active {
+  background-color: #fff;
+  border-right: 4px solid #E54847;
+  font-weight: bold;
+  color: #E54847;
+}
+
+.normal {
+  background-color: #f4f4f4;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.right1 {
+  display: inline-block;
+  width: 75%;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  /* height: 1700rpx; */
+  margin-left: 25%;
+}
+
+.newsbox {
+  display: inline-block;
+  position: relative;
+  background-color: #ffffff;
+  margin-top: 10rpx;
+  width: 96%;
+  margin-left: 14rpx;
+  height: 225rpx;
+  border-radius: 30rpx;
+  box-shadow: 0rpx 0rpx 10rpx 5rpx rgb(194, 184, 184);
+}
+
+.news-title {
+  position: absolute;
+  display: inline-block;
+  margin: 20rpx 20rpx 0 25rpx;
+  font-size: 33rpx;
+  font-weight: normal;
+  width: 300rpx;
+}
+
+.news-image {
+  margin-left: 320rpx;
+  display: inline-block;
+  margin-top: 27rpx;
+  width: 210rpx;
+  height: 160rpx;
+  border-radius: 20rpx;
+}
+
+.news-line {
+  height: 2rpx;
+  background-color: gainsboro;
+  position: absolute;
+  left: 10rpx;
+  top: 140rpx;
+  width: 300rpx;
+}
+
+.news-text {
+  display: inline-block;
+  position: absolute;
+  top: 130rpx;
+  left: 10rpx;
+  font-size: 24rpx;
+  color: #8F8F90;
+}
+
+/* #news3{
+  left: -10rpx;
+} */
+.collect {
+  display: inline-block;
+  width: 61rpx;
+  height: 40rpx;
+}
+
+.right2 {
+  display: inline-block;
+  padding: 10rpx 0 0 5rpx;
+  width: 77%;
+  /* height: 2000rpx; */
+  margin-left: 25%;
+  margin-bottom: 10rpx;
+}
+
+.bookbox {
+  background-color: white;
+  border-radius: 20rpx;
+  box-shadow: 0rpx 0rpx 10rpx 5rpx rgb(194, 184, 184);
+  display: inline-block;
+  width: 47%;
+  height: 410rpx;
+  margin: 10rpx 8rpx;
+}
+
+.book1-img {
+  width: 220rpx;
+  height: 270rpx;
+  margin-top: 20rpx;
+  margin-left: 24rpx;
+}
+
+.book-title {
+  display: inline-block;
+  width: 100%;
+  font-size: 33rpx;
+  text-align: center;
+  font-weight: normal;
+}
+
+.book-writer {
+  display: inline-block;
+  width: 100%;
+  font-size: 28rpx;
+  text-align: center;
+  font-weight: normal;
+  color: rgb(75, 42, 3);
+}
+
+.right3 {
+  display: inline-block;
+  padding: 10rpx 0 0 5rpx;
+  width: 77%;
+  /* height: 2000rpx; */
+  margin-left: 25%;
+  margin-bottom: 10rpx;
+}
+
+.right3 .news-title {
+  margin-top: 40rpx;
+  font-size: 36rpx;
+}
+
+.right3 .news-line {
+  top: 130rpx;
+}
+
+.right3 .news-text {
+  left: 20rpx;
+  top: 120rpx;
+}

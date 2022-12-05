@@ -1,0 +1,140 @@
+.container {
+  height: 1300rpx;
+  padding: 0 20rpx;
+}
+
+.top-tab {
+  width: 750rpx;
+  height: 100rpx;
+  background: #850505;
+  color: #ffffff;
+  font-size: 28rpx;
+  line-height: 100rpx;
+  box-shadow: 0 2px 2px #bebebe;
+  margin: 0 0 8rpx 0;
+  z-index: 9999;
+}
+
+.toptab.active {
+  color: #ffffff;
+  border-bottom: solid 3px #ffffff;
+}
+
+.activity {
+  width: 750rpx;
+  height: 375rpx;
+}
+
+.activity image {
+  width: 750rpx;
+  height: 375rpx;
+}
+
+.placehold {
+  font-size: 28rpx;
+  padding: 80rpx 0;
+}
+
+.notify-item {
+  width: 680rpx;
+  background: #ffffff;
+  padding: 25rpx 70rpx 25rpx 10rpx;
+  border-bottom: solid 1px #ebebeb;
+}
+
+.notify-item image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 80rpx;
+}
+
+.notify-item .avatar {
+  flex: 1;
+}
+
+.notify-item .notify-content {
+  flex: 4;
+  text-align: left;
+}
+
+.notify-item .notify-content text {
+  display: block;
+  text-indent: 2em;
+}
+
+.notify-item .notify-content .notify-source {
+  color: rgb(78, 78, 78);
+  font-size: 28rpx;
+  padding: 0 0 8rpx 0;
+}
+
+.notify-item .notify-content .notify-title {
+  color: #737b80;
+  font-size: 30rpx;
+  line-height: 34rpx;
+}
+
+.placehold {
+  padding: 10rpx 30rpx;
+  font-size: 28rpx
+}
+
+.unread {
+  color: #ab0904;
+  height: 60rpx;
+  padding: 10rpx 40rpx;
+  text-align: left;
+  width: 670rpx;
+}
+
+.content {
+  margin-bottom: 10rpx;
+  border-bottom: 8rpx solid rgb(240, 235, 235);
+}
+
+.feed-item {
+  width: 92%;
+  margin: auto;
+  padding-top: 30rpx;
+}
+
+.avatar image {
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+  margin-right: 20rpx;
+}
+
+.feed-source text {
+  font-size: 29rpx;
+  color: gray;
+  line-height: 50rpx;
+}
+
+.question-link {
+  font-size: 35rpx;
+  font-weight: bold;
+}
+
+.answer-body {
+  margin-top: 5rpx;
+  margin-bottom: 25rpx;
+  font-size: 29rpx;
+  color: rgb(78, 78, 78);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+
+.answer-actions {
+  color: gray;
+}
+
+
+.dot {
+  float: left;
+  width: 150rpx;
+}

@@ -1,0 +1,17 @@
+<view class="title">
+ <!-- <view class="bottom"></view> -->
+ <view class="font">
+   <text>我的收藏</text>
+  </view>
+</view>
+<view class="contain">
+  <navigator class="collect" url="../../news/link1/link1?id={{item._id}}" wx:for="{{shou}}" wx:key="index" > 
+    <view class="content">
+      <view class="passage">
+        <view class="more">{{item.title}}</view>
+        <text class="time" decode="true">{{item.author}}</text>
+      </view>
+      <image class="picture" src="{{item.picurl}}"></image>
+    </view>
+  </navigator>
+</view>
